@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Project NOAH and OSM Philippines Mapping Initiative">
+	<meta name="author" content="Project NOAH and OpenStreetMap Philippines">
+
+	<title>Project NOAH and OSM Philippines Mapping Initiative</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.png">
+
+	<!-- Add JQuery and use its getJSON method which is used to get external GeoJson files -->
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+	<!-- Add Leaflet files used for creating online map -->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+
+	<!-- load JavaScript files that allows us to add Bing imagery to Leaflet -->
+	<script src="js/bing.js"></script>
+
+	<!-- load JavaScript for sharing -->
+	<script type="text/javascript">var switchTo5x=false;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "0570055b-fbb3-4042-b859-4738755b63a5", doNotHash: false, doNotCopy: false, hashAddressBar: true});</script>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="col-lg-3">
+			<div class="cg-sidebar" style="position:fixed">
+				<ul class="nav cg-sidenav">
+					
+					<li><a href="#intro">Introduction</a></li>              
+					<li><a href="#howtomap">How to Map</a></li>	
+					<li><a href="#challenge">Mapping Challenge</a></li>		
+					<li><a href="#resources">Other Resources</a></li>	
+
+					<br />
+					<li style="margin: 25px 0 0 15px;">
+						<div id="google_translate_element"></div>
+						<script type="text/javascript">
+							function googleTranslateElementInit() {
+								new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT}, 'google_translate_element');
+							}
+						</script>
+						<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+					</li>
+					<li style="margin:5px;"><br /><em>In collaboration with:</em><a href="http://noah.dost.gov.ph/" target="_blank"><img src="img/noah_logo2.png" style="width: 100px; height: auto;"></a></li>
+					<li style="margin:5px;"><a href="http://openstreetmap.org.ph/" target="_blank"><img src="img/osmph_logo.png" style="width: 100px; height: auto;"></a>
+					<br />
+					<li style="margin:5px;"><br /><em>Share this:</em></li>
+					  <li style="margin:5px;" class='st_sharethis' displayText='ShareThis'></li>
+					  <li style="margin:5px;"class='st_facebook' displayText='Facebook'></li>
+					  <li style="margin:5px;"class='st_twitter' displayText='Tweet'></li>
+					  <li style="margin:5px;"class='st_linkedin' displayText='LinkedIn'></li>
+					  <li style="margin:5px;"class='st_pinterest' displayText='Pinterest'></li>
+					  <li style="margin:5px;"class='st_googleplus' displayText='Google +'></li>
+					  <li style="margin:5px;"class='st_email' displayText='Email'></li>				
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-lg-9" style="background-color:#f5f5f5;">		
+			<div class="cg-intro container" id="intro">
+				<h1>Project NOAH and OpenStreetMap Mapping Initiative</h1>
+				<p class="lead">Community-Driven Mapping for Disaster Risk Reduction</p> 
+			</div>    
+			<div class="otherPlaces container">
+				<img width="100%" src="http://blog.noah.dost.gov.ph/wp-content/uploads/2013/12/photo1.jpg" alt="Haiyan Damage" />
+				<span class="caption">Stand on a sea of rubble. Photo by <a href="http://blog.noah.dost.gov.ph/2013/12/04/what-really-happened-answers-from-the-survivors-of-yolanda/" target="_blank">Mahar Lagmay</a>.</span>
+				<p>In response to President Aquino's instructions to put in place a responsive program for disaster prevention and mitigation, specifically, for the Philippines' warning agencies to be able to provide a 
+				  6 hour lead-time warning to vulnerable communities against impending floods and to use advanced technology to enhance current geo-hazard maps, the Nationwide Operational Assessment of Hazards (Project NOAH) 
+				  was launched by the Department of Science and Technology to undertake disaster science research and development, advance the use of cutting edge technologies and recommend innovative information services. 
+				  Through the use of science and technology and in partnership with the academe and other stakeholders, the DOST through Project NOAH is taking a multi-disciplinary approach in developing systems, tools, and 
+				  other technologies that could be operationalized by the government to help prevent and mitigate disasters.</p>
+				<p>OpenStreetMap is a free, editable map of the whole world. OpenStreetMap volunteers have been helping many humanitarian organizations in providing comprehensive and updated geographic data for disaster 
+				  risk reduction and response</p>
+				<p>You can help Project NOAH and OpenStreetMap Philippines by contributing your time to mapping the Philippines in OpenStreetMap.  What you contribute will be used by Project NOAH researchers in developing hazard 
+				  and impact scenarios to help prevent and mitigate disasters.</p> 
+
+			</div>
+		<div class="chapter">
+			<div class="page-header">
+				<h1 id="howtomap">How to Map</h1>
+			</div>
+           		<h3>Editing data in OpenStreetMap</h3>
+			<p>Mapping in OpenStreetMap is as easy as these 3 steps.</p>
+				<ol>
+					<li>Set up an account and get a log in from <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> .</li>
+				 	<li>Learn to map.Watch this video and follow the instructions.</li>
+					<br />
+					<iframe width="685" height="385" src="//www.youtube.com/embed/9Jz-xn9mw7E" frameborder="0" allowfullscreen></iframe>
+					<br />
+					<li>Start mapping! </li>
+				</ol>
+			</p>
+
+                        <h3>No time to edit the map?  Use the OpenStreetMap Notes</h3>
+			<p>OpenStreetMap Notes allows you to easily add a marker for errors or missing information in the map data. </p>
+				<ol>
+					<li>To add a note, click the bottom tool bar button on the right side of the main OSM map. </li>
+                                        <li>Leave a short message on the map if something is missing or obviously wrong. </li>
+				 	<li>An experienced mapper can use these Notes as reference to edit the map. </li>
+					<br />
+					<iframe width="685" height="385" src="//www.youtube.com/embed/8h4qWLas1rI" frameborder="0" allowfullscreen></iframe>
+					<br />
+
+				</ol>
+			</p>
+               </div>
+
+<div class="chapter">
+	<div class="page-header">
+		<h1 id="challenge">Mapping Challenge of the Month</h1>
+	</div>
+	<h3>Mapping all hospitals</h3>
+
+	<img width="100%" src="http://static.rappler.com/images/tacloban-yolandaph-20131109-15.jpg" alt="Bethany Hospital" />
+	<span class="caption">Bethany Hospital in Tacloban City is in need of supplies, particularly anti-tetanus medicine. Photo Credit: 
+	  <a href="http://www.rappler.com/move-ph/issues/disasters/typhoon-yolanda/43332-tacloban-bethany-hospital-yolanda" target="_blank">Rupert Ambil/Rappler</a></span>
+
+	<p>We need to collect an updated geographic data for hospitals. For Project NOAH's research, we need to assess if hospitals are safe from hazards. 
+	  Furthermore, hospitals are crititcal infrastructure in times of disasters. During disaster relief and response, we need to know the location of hospitals 
+	  in order to efficiently direct aid and other medical assistance.</p> 
+	 <p>To map hospitals in OpenStreetMap:</p>
+	 <ol>
+	   <li>Browse the map to check if the hospitals in your neighborhood are already in OpenStreetMap.  You can also check this list of hospitals from the 
+	     <a href="http://uhmis2.doh.gov.ph/doh_facility/rfacilitieslist.php?pageno=1&t=rfacilities&recperpage=ALL" target="_blank">Department of Health database</a>.</li>
+           <li>Add as much detail within the hospital such as buildings, roads and other structures.</li>
+	   <li>When saving your edits, add this comment to your changset <code>"#noah_hospitals"</code>.</li>
+	   <br />
+  	   <iframe width="685" height="385" src="//www.youtube.com/embed/1UL02DTt8pw" frameborder="0" allowfullscreen></iframe>
+	   <br />
+	 </ol>
+	</p>
+
+
+<h3> Current data and contributions </h3>
+	<h4>Location of Hospitals in OSM</h4>
+
+<iframe width="100%" height="700" src="http://overpass-turbo.eu/map.html?Q=%3C!--%0AThis%20has%20been%20generated%20by%20the%20overpass-turbo%20wizard.%0AThe%20original%20search%20was%3A%0A%E2%80%9Camenity%3Dhospital%20or%20amenity%3Dclinic%E2%80%9D%0A--%3E%0A%3Cosm-script%20output%3D%22xml%22%20timeout%3D%2225%22%3E%3C!--%20fixed%20by%20auto%20repair%20--%3E%0A%20%20%3C!--%20gather%20results%20--%3E%0A%20%20%3Cunion%3E%0A%20%20%20%20%3C!--%20query%20part%20for%3A%20%E2%80%9Camenity%3Dhospital%E2%80%9D%20--%3E%0A%20%20%20%20%3Cquery%20type%3D%22node%22%3E%0A%20%20%20%20%20%20%3Chas-kv%20k%3D%22amenity%22%20v%3D%22hospital%22%2F%3E%0A%20%20%20%20%20%20%3Cbbox-query%20s%3D%224.061535597066106%22%20w%3D%22111.57714843749999%22%20n%3D%2221.166483858206583%22%20e%3D%22127.11181640625%22%2F%3E%0A%20%20%20%20%3C%2Fquery%3E%0A%20%20%20%20%3Cquery%20type%3D%22way%22%3E%0A%20%20%20%20%20%20%3Chas-kv%20k%3D%22amenity%22%20v%3D%22hospital%22%2F%3E%0A%20%20%20%20%20%20%3Cbbox-query%20s%3D%224.061535597066106%22%20w%3D%22111.57714843749999%22%20n%3D%2221.166483858206583%22%20e%3D%22127.11181640625%22%2F%3E%0A%20%20%20%20%3C%2Fquery%3E%0A%20%20%20%20%3Cquery%20type%3D%22relation%22%3E%0A%20%20%20%20%20%20%3Chas-kv%20k%3D%22amenity%22%20v%3D%22hospital%22%2F%3E%0A%20%20%20%20%20%20%3Cbbox-query%20s%3D%224.061535597066106%22%20w%3D%22111.57714843749999%22%20n%3D%2221.166483858206583%22%20e%3D%22127.11181640625%22%2F%3E%0A%20%20%20%20%3C%2Fquery%3E%0A%20%20%20%20%0A%20%20%3C%2Funion%3E%0A%20%20%3C!--%20print%20results%20--%3E%0A%20%20%3Cprint%20mode%3D%22meta%22%2F%3E%3C!--%20fixed%20by%20auto%20repair%20--%3E%0A%20%20%3Crecurse%20type%3D%22down%22%2F%3E%0A%20%20%3Cprint%20mode%3D%22meta%22%20order%3D%22quadtile%22%2F%3E%3C!--%20fixed%20by%20auto%20repair%20--%3E%0A%3C%2Fosm-script%3E" frameborder="0" allowfullscreen></iframe>
+
+<span class="caption">Live update of hospitals added in OpenStreetMap from <a href="http://overpass-turbo.eu/" target="_blank">http://overpass-turbo.eu/</a>.</span>
+
+      <h4>Last 7 days of edits</h4>
+
+<iframe width="100%" height="700" src="http://resultmaps.neis-one.org/osm-changesets?comment=noah_hospitals#6/12.683/122.267" frameborder="0" allowfullscreen></iframe>
+<span class="caption">Latest edits with the changeset tag <code>"#noah_hospitals"</code> from <a href="http://resultmaps.neis-one.org/osm-changesets#6/13.304/121.498" target="_blank">http://resultmaps.neis-one.org/osm-changesets</a>.</span>
+
+      <h4>Some numbers</h4>
+
+      <p>The summary numbers below is as of Feb 18, 2014:
+</br>
+<table id="damageClassificationTable">
+<tbody>
+
+<tr>
+<td>Number of Health Facilities in the DOH Database</td>
+<td>20,059</td>
+</tr>
+<tr>
+<td>Number of Hospitals mapped in OSM</td>
+<td>pois: 866, lines: 0, polygons: 595</td>
+</tr>
+<tr>
+<td>Number of Contributors</td>
+<td>?</td>
+</tr>
+
+</tbody>
+</table>
+</p>
+
+	
+</div>	    
+
+<div class="chapter">
+	<div class="page-header">
+		<h1 id="resources">Other Resources</h1>
+	</div>
+	<ul>
+		<li> <a href="http://noah.dost.gov.ph/" target="_blank">Project NOAH's</a> mission is to undertake disaster science research and development, 
+		  advance the use of cutting edge technologies and recommend innovative information services in government's disaster prevention and mitigation efforts.
+	        <li><a href="http://wiki.openstreetmap.org" target="_blank">OpenStreetMap</a> is a project to create and distribute free geographic data for the world. It is being built by volunteer contributors. </li>
+		<li>Learn to contribute to OpenStreetMap at <a href="http://learnosm.org" target="_blank">http://learnosm.org</a> and <a href="http://mapgive.state.gov" target="_blank">http://mapgive.state.gov</a>
+		<li>Talk to the OpenStreetMap Philippines community (OSM-PH) by visiting <a href="http://wiki.openstreetmap.org/wiki/Philippines" target="_blank">http://wiki.openstreetmap.org/wiki/Philippines</a>, 
+		  <a href="http://lists.openstreetmap.org/listinfo/talk-ph" target="_blank">joining the mailinglist</a> and <a href="https://www.facebook.com/OSMPH" target="_blank">visiting https://www.facebook.com/OSMPH</a>.</li>
+		<li>Comments and correction on this page, go to: <a href="https://github.com/maning/noah_osm_mapping" target="_blank">https://github.com/maning/noah_osm_mapping</a>.</li>              
+
+	</ul>
+</div>
+</div> <!-- close col-lg-9 -->
+</div> <!-- close body container -->
+
+<!-- jQuery -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<!-- all compiled plugins -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>  
+</html>
