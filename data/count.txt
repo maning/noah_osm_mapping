@@ -1,0 +1,2 @@
+Data log
+20140219 - pois: 862, lines: 0, polygons: 605
