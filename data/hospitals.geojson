@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2014-02-19T05:48:02Z",
+  "timestamp": "2014-02-19T10:31:02Z",
   "features": [
     {
       "type": "Feature",
@@ -2766,10 +2766,12 @@
         "addr:city": "Marikina",
         "addr:street": "Don Juan Sumulong",
         "amenity": "hospital",
-        "name": "Amang Rodriguez Memorial Medical Center",
-        "@timestamp": "2010-10-26T10:42:11Z",
-        "@version": "3",
-        "@changeset": "6181085",
+        "dohcode": "DOH000000000003872",
+        "name": "Amang Rodriguez General Hospital",
+        "wheelchair": "yes",
+        "@timestamp": "2014-02-19T07:21:39Z",
+        "@version": "4",
+        "@changeset": "20650655",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -2828,12 +2830,13 @@
         "@id": "way/54027061",
         "amenity": "hospital",
         "building": "yes",
+        "dohcode": "DOH000000000022886",
         "name": "Marikina Healthy City Center",
-        "@timestamp": "2010-04-02T05:17:30Z",
-        "@version": "1",
-        "@changeset": "4300346",
-        "@user": "seav",
-        "@uid": "11126"
+        "@timestamp": "2014-02-19T07:21:40Z",
+        "@version": "2",
+        "@changeset": "20650655",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Polygon",
@@ -6279,11 +6282,17 @@
       "id": "way/104371863",
       "properties": {
         "@id": "way/104371863",
+        "addr:city": "Marikina",
+        "addr:housenumber": "45",
+        "addr:street": "Bayan-Bayanan Avenue",
+        "addr:village": "Marikina Heights",
         "amenity": "hospital",
+        "building": "yes",
+        "dohcode": "DOH000000000007507",
         "name": "Garcia General Hospital",
-        "@timestamp": "2011-03-16T12:30:25Z",
-        "@version": "1",
-        "@changeset": "7575195",
+        "@timestamp": "2014-02-19T07:21:39Z",
+        "@version": "2",
+        "@changeset": "20650655",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -10359,13 +10368,16 @@
       "properties": {
         "@id": "way/117630731",
         "addr:city": "Marikina",
+        "addr:housenumber": "32",
         "addr:street": "B. Sta. Ana",
+        "addr:village": "San Roque",
         "amenity": "hospital",
         "building": "yes",
+        "dohcode": "DOH000000000024432",
         "name": "Saint Anthony Medical Center",
-        "@timestamp": "2011-06-14T11:49:14Z",
-        "@version": "1",
-        "@changeset": "8436473",
+        "@timestamp": "2014-02-19T07:21:40Z",
+        "@version": "2",
+        "@changeset": "20650655",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -11198,11 +11210,13 @@
         "@id": "way/120779195",
         "addr:city": "Marikina",
         "addr:street": "Katipunan",
+        "addr:village": "Concepcion Dos",
         "amenity": "hospital",
-        "name": "SDS",
-        "@timestamp": "2011-07-08T06:53:03Z",
-        "@version": "1",
-        "@changeset": "8663319",
+        "dohcode": "DOH000000000005470",
+        "name": "SDS Medical Center",
+        "@timestamp": "2014-02-19T07:21:40Z",
+        "@version": "2",
+        "@changeset": "20650655",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -11241,6 +11255,77 @@
             [
               121.1103319,
               14.6390997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/121189960",
+      "properties": {
+        "@id": "way/121189960",
+        "addr:city": "Marikina",
+        "addr:housenumber": "38",
+        "addr:street": "Gen. Ordonez",
+        "addr:village": "Concepcion Dos",
+        "amenity": "hospital",
+        "building": "yes",
+        "dohcode": "DOH000000000001794",
+        "name": "San Ramon Hospital",
+        "@timestamp": "2014-02-19T07:21:40Z",
+        "@version": "2",
+        "@changeset": "20650655",
+        "@user": "maning",
+        "@uid": "1417"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.1171189,
+              14.6441971
+            ],
+            [
+              121.1171804,
+              14.6440065
+            ],
+            [
+              121.1172775,
+              14.6440378
+            ],
+            [
+              121.1172582,
+              14.6440975
+            ],
+            [
+              121.1173743,
+              14.6441349
+            ],
+            [
+              121.117332,
+              14.644266
+            ],
+            [
+              121.1172746,
+              14.6442475
+            ],
+            [
+              121.1172832,
+              14.6442208
+            ],
+            [
+              121.1172245,
+              14.6442019
+            ],
+            [
+              121.1172159,
+              14.6442284
+            ],
+            [
+              121.1171189,
+              14.6441971
             ]
           ]
         ]
@@ -17197,6 +17282,63 @@
     },
     {
       "type": "Feature",
+      "id": "way/162045236",
+      "properties": {
+        "@id": "way/162045236",
+        "addr:city": "Marikina",
+        "addr:street": "J. P. Rizal",
+        "amenity": "hospital",
+        "building": "yes",
+        "dohcode": "DOH000000000000774",
+        "name": "Saint Victoria Hospital",
+        "@timestamp": "2014-02-19T07:21:40Z",
+        "@version": "2",
+        "@changeset": "20650655",
+        "@user": "maning",
+        "@uid": "1417"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.0945349,
+              14.6422422
+            ],
+            [
+              121.0943739,
+              14.6420572
+            ],
+            [
+              121.0944879,
+              14.6419643
+            ],
+            [
+              121.0945187,
+              14.6419997
+            ],
+            [
+              121.0945649,
+              14.6419595
+            ],
+            [
+              121.0946951,
+              14.6421092
+            ],
+            [
+              121.094649,
+              14.6421493
+            ],
+            [
+              121.0945349,
+              14.6422422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/162064633",
       "properties": {
         "@id": "way/162064633",
@@ -17363,6 +17505,56 @@
             [
               120.9565168,
               14.298681
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/162639734",
+      "properties": {
+        "@id": "way/162639734",
+        "addr:city": "Marikina",
+        "addr:street": "Bayan-bayanan",
+        "amenity": "hospital",
+        "building": "yes",
+        "dohcode": "DOH000000000005205",
+        "is_in:city": "Marikina",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1800",
+        "name": "St. Vincent Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/",
+        "@timestamp": "2014-02-19T07:21:41Z",
+        "@version": "2",
+        "@changeset": "20650655",
+        "@user": "maning",
+        "@uid": "1417"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.1075577,
+              14.6508657
+            ],
+            [
+              121.107747,
+              14.6509025
+            ],
+            [
+              121.1077112,
+              14.6510752
+            ],
+            [
+              121.1075219,
+              14.6510384
+            ],
+            [
+              121.1075577,
+              14.6508657
             ]
           ]
         ]
@@ -34002,16 +34194,18 @@
       "properties": {
         "@id": "way/262308307",
         "addr:city": "Marikina",
+        "addr:street": "Katipunan",
         "amenity": "hospital",
+        "dohcode": "DOH000000000000582",
         "is_in:city": "Marikina",
         "is_in:region": "Ncr",
         "is_in:zip": "1800",
-        "name": "Immaculate Concepcion Hospital",
+        "name": "Jesus Immaculate Concepcion Hospital",
         "source": "jklinc",
         "source:url": "http://www.freewebs.com/phroadguide/",
-        "@timestamp": "2014-02-19T01:18:56Z",
-        "@version": "1",
-        "@changeset": "20648380",
+        "@timestamp": "2014-02-19T07:21:39Z",
+        "@version": "2",
+        "@changeset": "20650655",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -34052,12 +34246,12 @@
         "addr:postcode": "1800",
         "addr:street": "Sumulong Highway",
         "amenity": "hospital",
-        "building": "yes",
+        "dohcode": "DOH000000000000648",
         "emergency": "yes",
         "name": "Marikina Valley Medical Center",
-        "@timestamp": "2014-02-19T01:18:56Z",
-        "@version": "1",
-        "@changeset": "20648380",
+        "@timestamp": "2014-02-19T07:21:40Z",
+        "@version": "2",
+        "@changeset": "20650655",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -34099,11 +34293,12 @@
         "addr:street": "A. Bonifacio",
         "amenity": "hospital",
         "building": "yes",
+        "dohcode": "DOH000000000007524",
         "is_in:zip": "1800",
         "name": "Sta. Monica Hospital",
-        "@timestamp": "2014-02-19T01:18:56Z",
-        "@version": "1",
-        "@changeset": "20648380",
+        "@timestamp": "2014-02-19T07:21:41Z",
+        "@version": "2",
+        "@changeset": "20650655",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -34212,6 +34407,51 @@
             [
               120.6692789,
               15.2163342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262334715",
+      "properties": {
+        "@id": "way/262334715",
+        "addr:city": "Marikina",
+        "addr:housenumber": "582",
+        "addr:street": "J. P. Rizal",
+        "amenity": "hospital",
+        "dohcode": "DOH000000000004582",
+        "name": "P. Gonzales Memorial Hospital",
+        "@timestamp": "2014-02-19T07:21:39Z",
+        "@version": "1",
+        "@changeset": "20650655",
+        "@user": "maning",
+        "@uid": "1417"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.0984165,
+              14.6492084
+            ],
+            [
+              121.0984706,
+              14.6490714
+            ],
+            [
+              121.0985558,
+              14.6491285
+            ],
+            [
+              121.0985155,
+              14.649242
+            ],
+            [
+              121.0984165,
+              14.6492084
             ]
           ]
         ]
@@ -36166,34 +36406,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/255069398",
-      "properties": {
-        "@id": "node/255069398",
-        "addr:city": "Marikina",
-        "addr:street": "Bayan-bayanan",
-        "amenity": "hospital",
-        "is_in:city": "Marikina",
-        "is_in:region": "Ncr",
-        "is_in:zip": "1800",
-        "name": "St. Vincent Hospital",
-        "source": "jklinc",
-        "source:url": "http://www.freewebs.com/phroadguide/",
-        "@timestamp": "2011-06-01T03:28:55Z",
-        "@version": "6",
-        "@changeset": "8307074",
-        "@user": "maning",
-        "@uid": "1417"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.1076337,
-          14.6509091
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/255069727",
       "properties": {
         "@id": "node/255069727",
@@ -36914,27 +37126,6 @@
         "coordinates": [
           121.4207071,
           13.93012
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/325136811",
-      "properties": {
-        "@id": "node/325136811",
-        "amenity": "hospital",
-        "name": "San Ramon Hospital",
-        "@timestamp": "2011-07-11T01:58:56Z",
-        "@version": "2",
-        "@changeset": "8689881",
-        "@user": "maning",
-        "@uid": "1417"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.1172529,
-          14.644166
         ]
       }
     },
@@ -39546,29 +39737,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/757707333",
-      "properties": {
-        "@id": "node/757707333",
-        "addr:city": "Marikina",
-        "addr:street": "J. P. Rizal",
-        "amenity": "hospital",
-        "name": "Saint Victoria Hospital",
-        "@timestamp": "2012-05-04T03:52:35Z",
-        "@version": "3",
-        "@changeset": "11494335",
-        "@user": "maning",
-        "@uid": "1417"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.0945004,
-          14.6421427
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/764088898",
       "properties": {
         "@id": "node/764088898",
@@ -41096,28 +41264,6 @@
         "coordinates": [
           122.8481504,
           10.53593
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1182156206",
-      "properties": {
-        "@id": "node/1182156206",
-        "amenity": "hospital",
-        "name": "Amang Rodriguez General Hospital",
-        "wheelchair": "yes",
-        "@timestamp": "2011-05-27T06:23:58Z",
-        "@version": "3",
-        "@changeset": "8259096",
-        "@user": "wheelmap_visitor",
-        "@uid": "290680"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.0985092,
-          14.636059
         ]
       }
     },
@@ -48320,27 +48466,6 @@
         "coordinates": [
           121.0341696,
           14.5108575
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1966250270",
-      "properties": {
-        "@id": "node/1966250270",
-        "amenity": "hospital",
-        "name": "Dental Clinic",
-        "@timestamp": "2012-10-15T06:03:28Z",
-        "@version": "1",
-        "@changeset": "13501437",
-        "@user": "VForce3",
-        "@uid": "535545"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.1228411,
-          8.1592558
         ]
       }
     },
