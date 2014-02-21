@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2014-02-19T10:31:02Z",
+  "timestamp": "2014-02-21T10:20:01Z",
   "features": [
     {
       "type": "Feature",
@@ -2766,12 +2766,12 @@
         "addr:city": "Marikina",
         "addr:street": "Don Juan Sumulong",
         "amenity": "hospital",
-        "dohcode": "DOH000000000003872",
         "name": "Amang Rodriguez General Hospital",
+        "ref:doh": "3872",
         "wheelchair": "yes",
-        "@timestamp": "2014-02-19T07:21:39Z",
-        "@version": "4",
-        "@changeset": "20650655",
+        "@timestamp": "2014-02-21T10:18:04Z",
+        "@version": "5",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -2830,11 +2830,11 @@
         "@id": "way/54027061",
         "amenity": "hospital",
         "building": "yes",
-        "dohcode": "DOH000000000022886",
         "name": "Marikina Healthy City Center",
-        "@timestamp": "2014-02-19T07:21:40Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "ref:doh": "22886",
+        "@timestamp": "2014-02-21T10:18:05Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -6288,11 +6288,11 @@
         "addr:village": "Marikina Heights",
         "amenity": "hospital",
         "building": "yes",
-        "dohcode": "DOH000000000007507",
         "name": "Garcia General Hospital",
-        "@timestamp": "2014-02-19T07:21:39Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "ref:doh": "7507",
+        "@timestamp": "2014-02-21T10:18:05Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -10373,11 +10373,11 @@
         "addr:village": "San Roque",
         "amenity": "hospital",
         "building": "yes",
-        "dohcode": "DOH000000000024432",
         "name": "Saint Anthony Medical Center",
-        "@timestamp": "2014-02-19T07:21:40Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "ref:doh": "24432",
+        "@timestamp": "2014-02-21T10:18:06Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -11212,11 +11212,11 @@
         "addr:street": "Katipunan",
         "addr:village": "Concepcion Dos",
         "amenity": "hospital",
-        "dohcode": "DOH000000000005470",
         "name": "SDS Medical Center",
-        "@timestamp": "2014-02-19T07:21:40Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "ref:doh": "5470",
+        "@timestamp": "2014-02-21T10:18:06Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -11864,55 +11864,6 @@
             [
               120.6240712,
               15.0956191
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/129602813",
-      "properties": {
-        "@id": "way/129602813",
-        "addr:city": "Taguig",
-        "addr:street": "East Service Road",
-        "amenity": "hospital",
-        "name": "Taguig City Hospital",
-        "old_name": "Taguig-Pateros District Hospital",
-        "previously": "node:255071053",
-        "@timestamp": "2011-09-11T04:34:01Z",
-        "@version": "1",
-        "@changeset": "9267518",
-        "@user": "seav",
-        "@uid": "11126"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              121.0342066,
-              14.5102035
-            ],
-            [
-              121.0344304,
-              14.5097813
-            ],
-            [
-              121.0350788,
-              14.5100478
-            ],
-            [
-              121.0348221,
-              14.5104926
-            ],
-            [
-              121.0344893,
-              14.5103571
-            ],
-            [
-              121.0342066,
-              14.5102035
             ]
           ]
         ]
@@ -17289,11 +17240,11 @@
         "addr:street": "J. P. Rizal",
         "amenity": "hospital",
         "building": "yes",
-        "dohcode": "DOH000000000000774",
         "name": "Saint Victoria Hospital",
-        "@timestamp": "2014-02-19T07:21:40Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "ref:doh": "774",
+        "@timestamp": "2014-02-21T10:18:06Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -17519,16 +17470,16 @@
         "addr:street": "Bayan-bayanan",
         "amenity": "hospital",
         "building": "yes",
-        "dohcode": "DOH000000000005205",
         "is_in:city": "Marikina",
         "is_in:region": "Ncr",
         "is_in:zip": "1800",
         "name": "St. Vincent Hospital",
+        "ref:doh": "5205",
         "source": "jklinc",
         "source:url": "http://www.freewebs.com/phroadguide/",
-        "@timestamp": "2014-02-19T07:21:41Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "@timestamp": "2014-02-21T10:18:06Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -34196,16 +34147,16 @@
         "addr:city": "Marikina",
         "addr:street": "Katipunan",
         "amenity": "hospital",
-        "dohcode": "DOH000000000000582",
         "is_in:city": "Marikina",
         "is_in:region": "Ncr",
         "is_in:zip": "1800",
         "name": "Jesus Immaculate Concepcion Hospital",
+        "ref:doh": "582",
         "source": "jklinc",
         "source:url": "http://www.freewebs.com/phroadguide/",
-        "@timestamp": "2014-02-19T07:21:39Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "@timestamp": "2014-02-21T10:18:05Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -34246,12 +34197,12 @@
         "addr:postcode": "1800",
         "addr:street": "Sumulong Highway",
         "amenity": "hospital",
-        "dohcode": "DOH000000000000648",
         "emergency": "yes",
         "name": "Marikina Valley Medical Center",
-        "@timestamp": "2014-02-19T07:21:40Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "ref:doh": "648",
+        "@timestamp": "2014-02-21T10:18:06Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -34293,12 +34244,12 @@
         "addr:street": "A. Bonifacio",
         "amenity": "hospital",
         "building": "yes",
-        "dohcode": "DOH000000000007524",
         "is_in:zip": "1800",
         "name": "Sta. Monica Hospital",
-        "@timestamp": "2014-02-19T07:21:41Z",
-        "@version": "2",
-        "@changeset": "20650655",
+        "ref:doh": "7524",
+        "@timestamp": "2014-02-21T10:18:07Z",
+        "@version": "3",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -34421,11 +34372,11 @@
         "addr:housenumber": "582",
         "addr:street": "J. P. Rizal",
         "amenity": "hospital",
-        "dohcode": "DOH000000000004582",
         "name": "P. Gonzales Memorial Hospital",
-        "@timestamp": "2014-02-19T07:21:39Z",
-        "@version": "1",
-        "@changeset": "20650655",
+        "ref:doh": "4582",
+        "@timestamp": "2014-02-21T10:18:06Z",
+        "@version": "2",
+        "@changeset": "20690579",
         "@user": "maning",
         "@uid": "1417"
       },
@@ -34452,6 +34403,467 @@
             [
               121.0984165,
               14.6492084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262365273",
+      "properties": {
+        "@id": "way/262365273",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "St. James Hospital",
+        "@timestamp": "2014-02-19T10:49:45Z",
+        "@version": "1",
+        "@changeset": "20653572",
+        "@user": "jenjereren",
+        "@uid": "1940553"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.3787606,
+              17.5795515
+            ],
+            [
+              120.3786243,
+              17.5792597
+            ],
+            [
+              120.3787729,
+              17.5791854
+            ],
+            [
+              120.3787499,
+              17.5791399
+            ],
+            [
+              120.378865,
+              17.5790859
+            ],
+            [
+              120.3788897,
+              17.5791348
+            ],
+            [
+              120.3790508,
+              17.579064
+            ],
+            [
+              120.379072,
+              17.5791078
+            ],
+            [
+              120.3793144,
+              17.5789999
+            ],
+            [
+              120.3794295,
+              17.579258
+            ],
+            [
+              120.3787606,
+              17.5795515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262372005",
+      "properties": {
+        "@id": "way/262372005",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "Metro Vigan Cooperative Hospital",
+        "@timestamp": "2014-02-19T11:05:59Z",
+        "@version": "1",
+        "@changeset": "20653881",
+        "@user": "jenjereren",
+        "@uid": "1940553"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.3862784,
+              17.5809984
+            ],
+            [
+              120.3862221,
+              17.5808373
+            ],
+            [
+              120.3868015,
+              17.5806405
+            ],
+            [
+              120.3868578,
+              17.5807964
+            ],
+            [
+              120.3862784,
+              17.5809984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262373341",
+      "properties": {
+        "@id": "way/262373341",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "Gabriela Silang General Hospital",
+        "@timestamp": "2014-02-19T11:09:09Z",
+        "@version": "1",
+        "@changeset": "20653936",
+        "@user": "jenjereren",
+        "@uid": "1940553"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.379654,
+              17.5539782
+            ],
+            [
+              120.3792861,
+              17.5533018
+            ],
+            [
+              120.3796805,
+              17.55311
+            ],
+            [
+              120.3800464,
+              17.5537825
+            ],
+            [
+              120.379654,
+              17.5539782
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262487485",
+      "properties": {
+        "@id": "way/262487485",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Vicente L. Peralta Memorial Hospital",
+        "@timestamp": "2014-02-21T09:32:00Z",
+        "@version": "2",
+        "@changeset": "20689766",
+        "@user": "wherehavejobyn",
+        "@uid": "1942402"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              123.7951417,
+              12.9803746
+            ],
+            [
+              123.7951572,
+              12.9802126
+            ],
+            [
+              123.795411,
+              12.980236
+            ],
+            [
+              123.7954218,
+              12.9801312
+            ],
+            [
+              123.7954777,
+              12.9801366
+            ],
+            [
+              123.7954857,
+              12.9800585
+            ],
+            [
+              123.7955911,
+              12.9800688
+            ],
+            [
+              123.7955827,
+              12.9801497
+            ],
+            [
+              123.7956994,
+              12.9801612
+            ],
+            [
+              123.7956867,
+              12.9802828
+            ],
+            [
+              123.7957329,
+              12.9802874
+            ],
+            [
+              123.7957235,
+              12.9803768
+            ],
+            [
+              123.7958223,
+              12.9803866
+            ],
+            [
+              123.7958151,
+              12.9804546
+            ],
+            [
+              123.7957304,
+              12.9804461
+            ],
+            [
+              123.7957348,
+              12.9804051
+            ],
+            [
+              123.7954504,
+              12.9803764
+            ],
+            [
+              123.7954474,
+              12.9804046
+            ],
+            [
+              123.7951417,
+              12.9803746
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262495832",
+      "properties": {
+        "@id": "way/262495832",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "St. Paul Hospital",
+        "@timestamp": "2014-02-20T06:42:38Z",
+        "@version": "1",
+        "@changeset": "20668977",
+        "@user": "spaghetticorner",
+        "@uid": "1942715"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.7078429,
+              17.6145094
+            ],
+            [
+              121.7073735,
+              17.6145068
+            ],
+            [
+              121.7073789,
+              17.6141719
+            ],
+            [
+              121.7072367,
+              17.6141719
+            ],
+            [
+              121.7072421,
+              17.6139163
+            ],
+            [
+              121.7078402,
+              17.6139035
+            ],
+            [
+              121.7078429,
+              17.6145094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262643831",
+      "properties": {
+        "@id": "way/262643831",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "@timestamp": "2014-02-21T09:19:32Z",
+        "@version": "1",
+        "@changeset": "20689567",
+        "@user": "jenjereren",
+        "@uid": "1940553"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.388176,
+              17.5669386
+            ],
+            [
+              120.388127,
+              17.5668073
+            ],
+            [
+              120.3882951,
+              17.5667494
+            ],
+            [
+              120.388225,
+              17.5665824
+            ],
+            [
+              120.3883628,
+              17.5665379
+            ],
+            [
+              120.3884025,
+              17.5666492
+            ],
+            [
+              120.3884515,
+              17.5666292
+            ],
+            [
+              120.3884865,
+              17.566716
+            ],
+            [
+              120.3884398,
+              17.5667338
+            ],
+            [
+              120.3884772,
+              17.566834
+            ],
+            [
+              120.388176,
+              17.5669386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262652137",
+      "properties": {
+        "@id": "way/262652137",
+        "addr:city": "Bulusan",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Bulusan Family Clinic",
+        "@timestamp": "2014-02-21T10:07:34Z",
+        "@version": "1",
+        "@changeset": "20690416",
+        "@user": "wherehavejobyn",
+        "@uid": "1942402"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              124.1358722,
+              12.7500534
+            ],
+            [
+              124.1358443,
+              12.749928
+            ],
+            [
+              124.1359197,
+              12.7499121
+            ],
+            [
+              124.1359271,
+              12.7499453
+            ],
+            [
+              124.1360221,
+              12.7499253
+            ],
+            [
+              124.1360425,
+              12.7500175
+            ],
+            [
+              124.1358722,
+              12.7500534
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262652226",
+      "properties": {
+        "@id": "way/262652226",
+        "addr:city": "Bulusan",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Guysayko General Hospital",
+        "@timestamp": "2014-02-21T10:09:00Z",
+        "@version": "1",
+        "@changeset": "20690440",
+        "@user": "wherehavejobyn",
+        "@uid": "1942402"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              124.1351318,
+              12.7497492
+            ],
+            [
+              124.1354287,
+              12.7496691
+            ],
+            [
+              124.1354721,
+              12.7498223
+            ],
+            [
+              124.1351752,
+              12.7499024
+            ],
+            [
+              124.1351318,
+              12.7497492
             ]
           ]
         ]
@@ -43010,14 +43422,16 @@
       "id": "node/1312084729",
       "properties": {
         "@id": "node/1312084729",
+        "addr:city": "Sorsogon City",
+        "addr:housename": "Our Lady's Village, Pangpang",
+        "addr:postcode": "4700",
         "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Sorsogon Doctors",
-        "@timestamp": "2011-07-18T12:17:15Z",
-        "@version": "2",
-        "@changeset": "8757806",
-        "@user": "Pjohn",
-        "@uid": "465407"
+        "name": "Sorsogon Medical Mission Group Hospital and Health Services Coop.",
+        "@timestamp": "2014-02-21T09:43:27Z",
+        "@version": "4",
+        "@changeset": "20689970",
+        "@user": "wherehavejobyn",
+        "@uid": "1942402"
       },
       "geometry": {
         "type": "Point",
@@ -43032,13 +43446,16 @@
       "id": "node/1312084733",
       "properties": {
         "@id": "node/1312084733",
+        "addr:city": "Sorsogon City",
+        "addr:housename": "Bgy. Macabog",
+        "addr:postcode": "4700",
         "amenity": "hospital",
-        "name": "Sorsogon Provincial Hospital",
-        "@timestamp": "2011-06-04T16:53:37Z",
-        "@version": "1",
-        "@changeset": "8340769",
-        "@user": "Pjohn",
-        "@uid": "465407"
+        "name": "Dr. Fernando B. Duran, Sr. Memorial Hospital ( former Sorsogon Provincial Hospital)",
+        "@timestamp": "2014-02-21T09:42:01Z",
+        "@version": "2",
+        "@changeset": "20689947",
+        "@user": "wherehavejobyn",
+        "@uid": "1942402"
       },
       "geometry": {
         "type": "Point",
@@ -45851,17 +46268,17 @@
         "@id": "node/1654049140",
         "amenity": "hospital",
         "name": "St. Paul Hospital",
-        "@timestamp": "2012-03-01T07:50:59Z",
-        "@version": "1",
-        "@changeset": "10834875",
-        "@user": "DY3JDR",
-        "@uid": "288064"
+        "@timestamp": "2014-02-20T06:42:38Z",
+        "@version": "2",
+        "@changeset": "20668977",
+        "@user": "spaghetticorner",
+        "@uid": "1942715"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.707751,
-          17.6142299
+          121.7075867,
+          17.6142116
         ]
       }
     },
@@ -53195,6 +53612,51 @@
         "coordinates": [
           119.9478913,
           15.5366998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2682361935",
+      "properties": {
+        "@id": "node/2682361935",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Cross Bearing Anne",
+        "@timestamp": "2014-02-20T19:40:29Z",
+        "@version": "1",
+        "@changeset": "20681558",
+        "@user": "bryanpiczon",
+        "@uid": "688302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.7490012,
+          11.9477239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2683217569",
+      "properties": {
+        "@id": "node/2683217569",
+        "addr:city": "Sorsogon City",
+        "addr:housename": "Balogo",
+        "amenity": "hospital",
+        "name": "Sts. Peter and Paul Hospital",
+        "@timestamp": "2014-02-21T09:54:22Z",
+        "@version": "1",
+        "@changeset": "20690160",
+        "@user": "wherehavejobyn",
+        "@uid": "1942402"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0130828,
+          12.9762519
         ]
       }
     },
