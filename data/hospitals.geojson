@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2014-02-21T10:20:01Z",
+  "timestamp": "2014-02-24T10:10:01Z",
   "features": [
     {
       "type": "Feature",
@@ -2281,36 +2281,41 @@
         "addr:city": "Makati",
         "amenity": "hospital",
         "building": "yes",
+        "height": "16",
         "name": "FortMed",
-        "@timestamp": "2012-09-21T11:36:25Z",
-        "@version": "6",
-        "@changeset": "13194539",
-        "@user": "Ian Haylock",
-        "@uid": "5541"
+        "@timestamp": "2014-02-22T07:37:49Z",
+        "@version": "8",
+        "@changeset": "20708345",
+        "@user": "jmbangate",
+        "@uid": "349964"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              121.022662,
-              14.5629576
+              121.0226605,
+              14.5629666
             ],
             [
-              121.0229671,
-              14.5629852
+              121.0229088,
+              14.5629795
             ],
             [
-              121.0229307,
-              14.5631572
+              121.0229393,
+              14.5631005
             ],
             [
-              121.0226265,
-              14.5631593
+              121.0226794,
+              14.5631753
             ],
             [
-              121.022662,
-              14.5629576
+              121.0226487,
+              14.5631678
+            ],
+            [
+              121.0226605,
+              14.5629666
             ]
           ]
         ]
@@ -3738,9 +3743,10 @@
         "addr:street": "P. Diego Cera Avenue",
         "amenity": "hospital",
         "name": "Las Pinas General Hospital",
-        "@timestamp": "2012-11-02T07:44:20Z",
-        "@version": "3",
-        "@changeset": "13719158",
+        "ref:doh": "615",
+        "@timestamp": "2014-02-21T13:16:31Z",
+        "@version": "4",
+        "@changeset": "20693646",
         "@user": "schadow1",
         "@uid": "81841"
       },
@@ -7927,12 +7933,13 @@
         "emergency": "yes",
         "name": "Las Piñas Doctors Hospital",
         "previously": "node:354426861",
+        "ref:doh": "614",
         "website": "http://www.laspinasdoctorshospitalinc.com/",
-        "@timestamp": "2011-11-19T04:16:05Z",
-        "@version": "4",
-        "@changeset": "9870053",
-        "@user": "seav",
-        "@uid": "11126"
+        "@timestamp": "2014-02-21T13:16:31Z",
+        "@version": "5",
+        "@changeset": "20693646",
+        "@user": "schadow1",
+        "@uid": "81841"
       },
       "geometry": {
         "type": "Polygon",
@@ -17513,64 +17520,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/162715899",
-      "properties": {
-        "@id": "way/162715899",
-        "amenity": "hospital",
-        "building": "yes",
-        "name": "Kawit Kalayaan Hospital",
-        "@timestamp": "2013-10-15T18:57:24Z",
-        "@version": "5",
-        "@changeset": "18372734",
-        "@user": "pnorman_mechanical",
-        "@uid": "392827"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              120.8981217,
-              14.4170501
-            ],
-            [
-              120.89826,
-              14.4166489
-            ],
-            [
-              120.8989358,
-              14.4168675
-            ],
-            [
-              120.898885,
-              14.4170149
-            ],
-            [
-              120.8987188,
-              14.4169612
-            ],
-            [
-              120.8987322,
-              14.4169223
-            ],
-            [
-              120.8983775,
-              14.4168076
-            ],
-            [
-              120.8982766,
-              14.4171002
-            ],
-            [
-              120.8981217,
-              14.4170501
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/162815240",
       "properties": {
         "@id": "way/162815240",
@@ -19221,72 +19170,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/168954804",
-      "properties": {
-        "@id": "way/168954804",
-        "amenity": "hospital",
-        "building": "yes",
-        "name": "Pamana Medical Center",
-        "@timestamp": "2013-01-25T14:54:32Z",
-        "@version": "2",
-        "@changeset": "14780946",
-        "@user": "wintersira",
-        "@uid": "1208609"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              121.1615335,
-              14.198519
-            ],
-            [
-              121.1618391,
-              14.1981047
-            ],
-            [
-              121.1619584,
-              14.1981874
-            ],
-            [
-              121.1619065,
-              14.1982577
-            ],
-            [
-              121.1619561,
-              14.1982921
-            ],
-            [
-              121.1618827,
-              14.1983916
-            ],
-            [
-              121.1618426,
-              14.1983639
-            ],
-            [
-              121.1616857,
-              14.1985766
-            ],
-            [
-              121.1616495,
-              14.1985515
-            ],
-            [
-              121.1616261,
-              14.1985832
-            ],
-            [
-              121.1615335,
-              14.198519
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/168955357",
       "properties": {
         "@id": "way/168955357",
@@ -19945,11 +19828,12 @@
         "@id": "way/172909311",
         "amenity": "hospital",
         "name": "Las Piñas City Medical Center",
-        "@timestamp": "2012-07-25T10:45:57Z",
-        "@version": "1",
-        "@changeset": "12485047",
-        "@user": "jeffreyslopez78",
-        "@uid": "536014"
+        "ref:doh": "5710",
+        "@timestamp": "2014-02-21T13:16:31Z",
+        "@version": "2",
+        "@changeset": "20693646",
+        "@user": "schadow1",
+        "@uid": "81841"
       },
       "geometry": {
         "type": "Polygon",
@@ -22131,24 +22015,24 @@
         "coordinates": [
           [
             [
-              121.1238786,
-              14.629153
+              121.1238749,
+              14.6291945
             ],
             [
-              121.1241737,
-              14.6292075
+              121.1241429,
+              14.6292448
             ],
             [
-              121.124129,
-              14.6293367
+              121.1241182,
+              14.629368
             ],
             [
-              121.1238706,
-              14.6292776
+              121.1238502,
+              14.6293177
             ],
             [
-              121.1238786,
-              14.629153
+              121.1238749,
+              14.6291945
             ]
           ]
         ]
@@ -22547,10 +22431,11 @@
       "properties": {
         "@id": "way/185734509",
         "amenity": "hospital",
+        "emergency": "yes",
         "name": "Pamana Medical Center",
-        "@timestamp": "2012-10-14T02:58:29Z",
-        "@version": "1",
-        "@changeset": "13487210",
+        "@timestamp": "2014-02-21T10:58:35Z",
+        "@version": "2",
+        "@changeset": "20691252",
         "@user": "ianlopez1115",
         "@uid": "44938"
       },
@@ -27145,10 +27030,11 @@
         "addr:street": "Rizal",
         "amenity": "hospital",
         "name": "Jomalig Rural Health Unit",
+        "ref:doh": "1420",
         "source": "Schadow1 Expeditions",
-        "@timestamp": "2013-08-07T12:59:57Z",
-        "@version": "1",
-        "@changeset": "17253704",
+        "@timestamp": "2014-02-21T13:09:01Z",
+        "@version": "2",
+        "@changeset": "20693538",
         "@user": "schadow1",
         "@uid": "81841"
       },
@@ -29020,9 +28906,10 @@
         "addr:street": "Alabang-Zapote Road",
         "amenity": "hospital",
         "name": "University of Perpetual Help Medical Center",
-        "@timestamp": "2013-09-22T21:24:43Z",
-        "@version": "1",
-        "@changeset": "17981842",
+        "ref:doh": "798",
+        "@timestamp": "2014-02-21T13:16:31Z",
+        "@version": "2",
+        "@changeset": "20693646",
         "@user": "schadow1",
         "@uid": "81841"
       },
@@ -32262,9 +32149,10 @@
         "addr:street": "Centennial Road",
         "amenity": "hospital",
         "name": "Divine Grace Hospital",
-        "@timestamp": "2013-11-28T10:29:18Z",
-        "@version": "1",
-        "@changeset": "19157197",
+        "ref:doh": "6011",
+        "@timestamp": "2014-02-21T13:32:55Z",
+        "@version": "2",
+        "@changeset": "20693869",
         "@user": "schadow1",
         "@uid": "81841"
       },
@@ -33043,9 +32931,10 @@
         "addr:street": "Real",
         "amenity": "hospital",
         "name": "Caramoan Municipal Hospital",
-        "@timestamp": "2013-12-31T11:56:49Z",
-        "@version": "1",
-        "@changeset": "19730875",
+        "ref:doh": "1663",
+        "@timestamp": "2014-02-21T13:10:23Z",
+        "@version": "2",
+        "@changeset": "20693556",
         "@user": "schadow1",
         "@uid": "81841"
       },
@@ -33660,32 +33549,32 @@
         "coordinates": [
           [
             [
-              121.1529587,
-              14.5314941
+              121.152951,
+              14.5314928
             ],
             [
-              121.1526366,
-              14.5313008
+              121.1526289,
+              14.5312995
             ],
             [
-              121.1527131,
-              14.531181
+              121.1527054,
+              14.5311797
             ],
             [
-              121.1527912,
-              14.5312277
+              121.1527835,
+              14.5312264
             ],
             [
-              121.1528213,
-              14.5311806
+              121.1528136,
+              14.5311793
             ],
             [
-              121.153071,
-              14.5313307
+              121.1530633,
+              14.5313294
             ],
             [
-              121.1529587,
-              14.5314941
+              121.152951,
+              14.5314928
             ]
           ]
         ]
@@ -33967,11 +33856,12 @@
         "addr:street": "Fabricante Street",
         "amenity": "hospital",
         "building": "yes",
+        "emergency": "yes",
         "name": "Luisiana District Hospital",
         "phone": "+63 49 555 4071",
-        "@timestamp": "2014-02-18T19:04:47Z",
-        "@version": "3",
-        "@changeset": "20642931",
+        "@timestamp": "2014-02-21T18:24:31Z",
+        "@version": "5",
+        "@changeset": "20699162",
         "@user": "kenadrian",
         "@uid": "1897027"
       },
@@ -33980,20 +33870,24 @@
         "coordinates": [
           [
             [
-              121.5089306,
-              14.1853287
+              121.5089307,
+              14.1853288
             ],
             [
-              121.5089237,
-              14.1853923
+              121.5089239,
+              14.1853922
             ],
             [
-              121.5089584,
-              14.1853959
+              121.508949,
+              14.1853947
             ],
             [
-              121.5089348,
-              14.1856145
+              121.5089448,
+              14.1854332
+            ],
+            [
+              121.5089253,
+              14.1856135
             ],
             [
               121.5088176,
@@ -34004,20 +33898,20 @@
               14.1853851
             ],
             [
-              121.5088851,
-              14.1853895
+              121.5088852,
+              14.1853896
             ],
             [
-              121.5088941,
-              14.1853065
+              121.5088942,
+              14.1853064
             ],
             [
-              121.5088526,
-              14.1853023
+              121.5088527,
+              14.1853022
             ],
             [
-              121.5088602,
-              14.1852321
+              121.5088603,
+              14.1852322
             ],
             [
               121.5089011,
@@ -34028,24 +33922,24 @@
               14.1851834
             ],
             [
-              121.5092474,
+              121.5092475,
               14.185218
             ],
             [
-              121.5092217,
-              14.1854557
+              121.5092218,
+              14.1854558
             ],
             [
-              121.5090454,
-              14.1854377
+              121.5090452,
+              14.1854378
             ],
             [
-              121.5090558,
-              14.1853414
+              121.5090556,
+              14.1853415
             ],
             [
-              121.5089306,
-              14.1853287
+              121.5089307,
+              14.1853288
             ]
           ]
         ]
@@ -34864,6 +34758,378 @@
             [
               124.1351318,
               12.7497492
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262678060",
+      "properties": {
+        "@id": "way/262678060",
+        "addr:city": "Bacoor",
+        "addr:postcode": "4102",
+        "addr:street": "Tirona Highway",
+        "amenity": "hospital",
+        "name": "Crisostomo General Hospital",
+        "ref:doh": "460",
+        "@timestamp": "2014-02-21T13:25:37Z",
+        "@version": "1",
+        "@changeset": "20693754",
+        "@user": "schadow1",
+        "@uid": "81841"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.9332573,
+              14.449372
+            ],
+            [
+              120.9332041,
+              14.4490459
+            ],
+            [
+              120.9335203,
+              14.4489976
+            ],
+            [
+              120.9335734,
+              14.4493237
+            ],
+            [
+              120.9332573,
+              14.449372
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262678832",
+      "properties": {
+        "@id": "way/262678832",
+        "addr:city": "Kawit",
+        "addr:postcode": "4104",
+        "addr:street": "San Sebastian Road",
+        "amenity": "hospital",
+        "name": "Kawit Kalayaan Hospital",
+        "ref:doh": "599",
+        "@timestamp": "2014-02-21T13:32:11Z",
+        "@version": "1",
+        "@changeset": "20693852",
+        "@user": "schadow1",
+        "@uid": "81841"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.8980038,
+              14.4170582
+            ],
+            [
+              120.8982105,
+              14.4166225
+            ],
+            [
+              120.8990718,
+              14.4169051
+            ],
+            [
+              120.8989381,
+              14.4172957
+            ],
+            [
+              120.8983789,
+              14.4171698
+            ],
+            [
+              120.8982635,
+              14.4171402
+            ],
+            [
+              120.8980038,
+              14.4170582
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262741399",
+      "properties": {
+        "@id": "way/262741399",
+        "addr:city": "Luisiana",
+        "addr:postcode": "4032",
+        "addr:street": "Fabricante Street",
+        "amenity": "hospital",
+        "building": "no",
+        "emergency": "yes",
+        "name": "Luisiana District Hospital",
+        "phone": "+63 49 5554071",
+        "wheelchair": "yes",
+        "@timestamp": "2014-02-21T18:24:29Z",
+        "@version": "1",
+        "@changeset": "20699162",
+        "@user": "kenadrian",
+        "@uid": "1897027"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5088646,
+              14.1852135
+            ],
+            [
+              121.5088687,
+              14.18518
+            ],
+            [
+              121.5089069,
+              14.1851834
+            ],
+            [
+              121.5092475,
+              14.185218
+            ],
+            [
+              121.5092218,
+              14.1854558
+            ],
+            [
+              121.5090452,
+              14.1854378
+            ],
+            [
+              121.5089448,
+              14.1854332
+            ],
+            [
+              121.5089253,
+              14.1856135
+            ],
+            [
+              121.5088176,
+              14.1856026
+            ],
+            [
+              121.5088411,
+              14.1853851
+            ],
+            [
+              121.5088527,
+              14.1853022
+            ],
+            [
+              121.5088603,
+              14.1852322
+            ],
+            [
+              121.5088646,
+              14.1852135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262797501",
+      "properties": {
+        "@id": "way/262797501",
+        "Id": "0",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Columbia Asia Hospital",
+        "@timestamp": "2014-02-22T03:11:24Z",
+        "@version": "1",
+        "@changeset": "20706436",
+        "@user": "wslerry",
+        "@uid": "1656905"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.001697,
+              4.4115121
+            ],
+            [
+              114.0018855,
+              4.4112095
+            ],
+            [
+              114.0020473,
+              4.4112951
+            ],
+            [
+              114.001855,
+              4.4116073
+            ],
+            [
+              114.001697,
+              4.4115121
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262798870",
+      "properties": {
+        "@id": "way/262798870",
+        "addr:city": "Iligan City",
+        "addr:housenumber": "B.S. Ong Labao St. Ext",
+        "addr:postcode": "9200",
+        "addr:street": "Isidro Emilia Kho Rd",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "E & R Hospital",
+        "phone": "(063) 223-8391; (063) 223-2246; (063) 223-2247",
+        "@timestamp": "2014-02-22T03:35:54Z",
+        "@version": "1",
+        "@changeset": "20706641",
+        "@user": "betchea",
+        "@uid": "1948179"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              124.2378496,
+              8.2336034
+            ],
+            [
+              124.238044,
+              8.2334415
+            ],
+            [
+              124.2380682,
+              8.2334734
+            ],
+            [
+              124.2381594,
+              8.2334004
+            ],
+            [
+              124.2383552,
+              8.2336287
+            ],
+            [
+              124.2381848,
+              8.2337627
+            ],
+            [
+              124.2381258,
+              8.2336977
+            ],
+            [
+              124.2380078,
+              8.2337893
+            ],
+            [
+              124.2378496,
+              8.2336034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/263121475",
+      "properties": {
+        "@id": "way/263121475",
+        "addr:city": "Angono",
+        "amenity": "hospital",
+        "name": "Angono General Hospital",
+        "ref": "DOH000000000005297",
+        "@timestamp": "2014-02-23T21:45:35Z",
+        "@version": "2",
+        "@changeset": "20741290",
+        "@user": "Rally",
+        "@uid": "24338"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.1516189,
+              14.5265477
+            ],
+            [
+              121.1518133,
+              14.526258
+            ],
+            [
+              121.1526923,
+              14.5268353
+            ],
+            [
+              121.1524829,
+              14.5271138
+            ],
+            [
+              121.1516189,
+              14.5265477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/263153196",
+      "properties": {
+        "@id": "way/263153196",
+        "addr:city": "San Jorge Poblacion",
+        "addr:postcode": "6707",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "San Jorge Health Office",
+        "@timestamp": "2014-02-24T01:50:11Z",
+        "@version": "1",
+        "@changeset": "20743604",
+        "@user": "bryanpiczon",
+        "@uid": "688302"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              124.8262474,
+              11.9789183
+            ],
+            [
+              124.8262037,
+              11.9787692
+            ],
+            [
+              124.8262636,
+              11.9787513
+            ],
+            [
+              124.8263124,
+              11.9789014
+            ],
+            [
+              124.8262474,
+              11.9789183
             ]
           ]
         ]
@@ -38099,9 +38365,10 @@
         "addr:street": "Alabang-Zapote Road",
         "amenity": "hospital",
         "name": "Christ the King Hospital",
-        "@timestamp": "2013-10-01T12:25:24Z",
-        "@version": "3",
-        "@changeset": "18126380",
+        "ref:doh": "447",
+        "@timestamp": "2014-02-21T13:28:59Z",
+        "@version": "4",
+        "@changeset": "20693804",
         "@user": "schadow1",
         "@uid": "81841"
       },
@@ -39388,11 +39655,12 @@
         "branch": "Las Piñas",
         "emergency": "yes",
         "name": "Alabang Medical Clinic",
-        "@timestamp": "2012-01-21T09:39:06Z",
-        "@version": "7",
-        "@changeset": "10453593",
-        "@user": "seav",
-        "@uid": "11126"
+        "ref:doh": "4395",
+        "@timestamp": "2014-02-21T13:16:32Z",
+        "@version": "8",
+        "@changeset": "20693646",
+        "@user": "schadow1",
+        "@uid": "81841"
       },
       "geometry": {
         "type": "Point",
@@ -41728,12 +41996,13 @@
       "properties": {
         "@id": "node/1194225978",
         "amenity": "hospital",
+        "emergency": "yes",
         "name": "Kidapawan Medical Specialist",
-        "@timestamp": "2011-04-18T12:17:37Z",
-        "@version": "2",
-        "@changeset": "7896395",
-        "@user": "mindanao farmer",
-        "@uid": "101166"
+        "@timestamp": "2014-02-22T19:03:27Z",
+        "@version": "3",
+        "@changeset": "20719745",
+        "@user": "abceedee",
+        "@uid": "1737042"
       },
       "geometry": {
         "type": "Point",
@@ -52431,48 +52700,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2502914442",
-      "properties": {
-        "@id": "node/2502914442",
-        "amenity": "hospital",
-        "name": "Pag-Asa Hospital",
-        "@timestamp": "2013-10-20T14:48:58Z",
-        "@version": "1",
-        "@changeset": "18452891",
-        "@user": "eula ganir",
-        "@uid": "1690167"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.1559898,
-          14.5207095
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2502914444",
-      "properties": {
-        "@id": "node/2502914444",
-        "amenity": "hospital",
-        "name": "Rizal Provincial Hospital",
-        "@timestamp": "2013-10-20T14:48:58Z",
-        "@version": "1",
-        "@changeset": "18452891",
-        "@user": "eula ganir",
-        "@uid": "1690167"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.1526286,
-          14.5267591
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2509028121",
       "properties": {
         "@id": "node/2509028121",
@@ -53657,6 +53884,68 @@
         "coordinates": [
           124.0130828,
           12.9762519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2686792112",
+      "properties": {
+        "@id": "node/2686792112",
+        "amenity": "hospital",
+        "name": "Pag-Asa Hospital",
+        "@timestamp": "2014-02-23T14:48:35Z",
+        "@version": "1",
+        "@changeset": "20733215",
+        "@user": "Rally",
+        "@uid": "24338"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1558483,
+          14.5206788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2687422152",
+      "properties": {
+        "@id": "node/2687422152",
+        "amenity": "hospital",
+        "name": "Pag-Asa Hospital",
+        "@timestamp": "2014-02-23T20:28:44Z",
+        "@version": "1",
+        "@changeset": "20739726",
+        "@user": "Rally",
+        "@uid": "24338"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1558483,
+          14.5206788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2688023541",
+      "properties": {
+        "@id": "node/2688023541",
+        "amenity": "hospital",
+        "@timestamp": "2014-02-24T07:47:57Z",
+        "@version": "1",
+        "@changeset": "20745902",
+        "@user": "Rally",
+        "@uid": "24338"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.151516,
+          14.5241215
         ]
       }
     },
