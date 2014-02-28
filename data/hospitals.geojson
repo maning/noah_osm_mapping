@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2014-02-24T10:10:01Z",
+  "timestamp": "2014-02-28T11:37:02Z",
   "features": [
     {
       "type": "Feature",
@@ -519,24 +519,16 @@
         "amenity": "hospital",
         "building": "yes",
         "type": "multipolygon",
-        "@timestamp": "2013-12-16T08:48:09Z",
-        "@version": "1",
-        "@changeset": "19478217",
-        "@user": "vincentraybea",
-        "@uid": "1821288"
+        "@timestamp": "2014-02-24T10:29:24Z",
+        "@version": "2",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              120.2446607,
-              14.8593486
-            ],
-            [
-              120.2445947,
-              14.8593958
-            ],
             [
               120.2445383,
               14.8593246
@@ -548,6 +540,14 @@
             [
               120.2446607,
               14.8593486
+            ],
+            [
+              120.2445947,
+              14.8593958
+            ],
+            [
+              120.2445383,
+              14.8593246
             ]
           ]
         ]
@@ -8089,9 +8089,9 @@
         "emergency": "yes",
         "name": "San Pablo Colleges Medical Center",
         "previously": "node:272281426",
-        "@timestamp": "2013-09-12T06:14:43Z",
-        "@version": "6",
-        "@changeset": "17793961",
+        "@timestamp": "2014-02-25T12:17:01Z",
+        "@version": "7",
+        "@changeset": "20768983",
         "@user": "ianlopez1115",
         "@uid": "44938"
       },
@@ -8146,6 +8146,10 @@
             [
               121.3076877,
               14.0685095
+            ],
+            [
+              121.3075452,
+              14.0689269
             ],
             [
               121.3072554,
@@ -32650,6 +32654,58 @@
     },
     {
       "type": "Feature",
+      "id": "way/252078985",
+      "properties": {
+        "@id": "way/252078985",
+        "amenity": "hospital",
+        "name": "Calapacuan Heath Center",
+        "@timestamp": "2014-02-24T10:29:24Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417",
+        "@relations": [
+          {
+            "role": "outer",
+            "rel": "3381256",
+            "reltags": {
+              "amenity": "hospital",
+              "building": "yes",
+              "type": "multipolygon"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.2445383,
+              14.8593246
+            ],
+            [
+              120.2446027,
+              14.8592778
+            ],
+            [
+              120.2446607,
+              14.8593486
+            ],
+            [
+              120.2445947,
+              14.8593958
+            ],
+            [
+              120.2445383,
+              14.8593246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/252399732",
       "properties": {
         "@id": "way/252399732",
@@ -35055,12 +35111,12 @@
         "addr:city": "Angono",
         "amenity": "hospital",
         "name": "Angono General Hospital",
-        "ref": "DOH000000000005297",
-        "@timestamp": "2014-02-23T21:45:35Z",
-        "@version": "2",
-        "@changeset": "20741290",
-        "@user": "Rally",
-        "@uid": "24338"
+        "ref": "5297",
+        "@timestamp": "2014-02-24T10:22:06Z",
+        "@version": "3",
+        "@changeset": "20747855",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Polygon",
@@ -35130,6 +35186,99 @@
             [
               124.8262474,
               11.9789183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/263351636",
+      "properties": {
+        "@id": "way/263351636",
+        "amenity": "hospital",
+        "building": "yes",
+        "@timestamp": "2014-02-25T14:54:43Z",
+        "@version": "1",
+        "@changeset": "20771772",
+        "@user": "abceedee",
+        "@uid": "1737042"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.0912229,
+              7.0100486
+            ],
+            [
+              125.0911574,
+              7.0099274
+            ],
+            [
+              125.0915295,
+              7.0097295
+            ],
+            [
+              125.0915949,
+              7.0098507
+            ],
+            [
+              125.0912229,
+              7.0100486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/252078985",
+      "properties": {
+        "@id": "way/252078985",
+        "amenity": "hospital",
+        "name": "Calapacuan Heath Center",
+        "@timestamp": "2014-02-24T10:29:24Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417",
+        "@relations": [
+          {
+            "role": "outer",
+            "rel": "3381256",
+            "reltags": {
+              "amenity": "hospital",
+              "building": "yes",
+              "type": "multipolygon"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.2445383,
+              14.8593246
+            ],
+            [
+              120.2446027,
+              14.8592778
+            ],
+            [
+              120.2446607,
+              14.8593486
+            ],
+            [
+              120.2445947,
+              14.8593958
+            ],
+            [
+              120.2445383,
+              14.8593246
             ]
           ]
         ]
@@ -47141,15 +47290,14 @@
         "amenity": "hospital",
         "cmt": "Ob Clinic",
         "desc": "Ob Clinic",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Ob Clinic",
         "sym": "Waypoint",
         "time": "2012-05-21T09:56:03Z",
-        "@timestamp": "2012-05-21T13:05:50Z",
-        "@version": "3",
-        "@changeset": "11661744",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:25Z",
+        "@version": "4",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47167,15 +47315,14 @@
         "amenity": "hospital",
         "cmt": "Calasiao Municipal Hospital",
         "desc": "Calasiao Municipal Hospital",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Calasiao Municipal Hospital",
         "sym": "Medical Facility",
         "time": "2012-05-21T09:52:01Z",
-        "@timestamp": "2012-05-23T17:17:03Z",
-        "@version": "2",
-        "@changeset": "11682573",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:24Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47214,15 +47361,14 @@
         "amenity": "hospital",
         "cmt": "Nazareth General Hospital",
         "desc": "Nazareth General Hospital",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Nazareth General Hospital",
         "sym": "Medical Facility",
         "time": "2012-05-23T11:29:25Z",
-        "@timestamp": "2012-05-23T16:38:57Z",
-        "@version": "2",
-        "@changeset": "11682240",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:25Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47240,15 +47386,14 @@
         "amenity": "hospital",
         "cmt": "Pangasinan Medical Center (Pmc)",
         "desc": "Pangasinan Medical Center (Pmc)",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Pangasinan Medical Center (Pmc)",
         "sym": "Medical Facility",
         "time": "2012-05-23T11:42:58Z",
-        "@timestamp": "2012-05-23T16:39:00Z",
-        "@version": "2",
-        "@changeset": "11682240",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:25Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47266,15 +47411,14 @@
         "amenity": "hospital",
         "cmt": "Dagupan Orthopedic Hospital",
         "desc": "Dagupan Orthopedic Hospital",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Dagupan Orthopedic Hospital",
         "sym": "Medical Facility",
         "time": "2012-05-23T11:23:40Z",
-        "@timestamp": "2012-05-23T16:38:34Z",
-        "@version": "2",
-        "@changeset": "11682240",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:25Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47292,15 +47436,14 @@
         "amenity": "hospital",
         "cmt": "Specialist Group and Trauma Hospital",
         "desc": "Specialist Group and Trauma Hospital",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Specialist Group and Trauma Hospital",
         "sym": "Medical Facility",
         "time": "2012-05-23T11:23:42Z",
-        "@timestamp": "2012-05-23T16:39:15Z",
-        "@version": "2",
-        "@changeset": "11682240",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:25Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47318,15 +47461,14 @@
         "amenity": "hospital",
         "cmt": "Villaflor Hospital",
         "desc": "Villaflor Hospital",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Villaflor Hospital",
         "sym": "Medical Facility",
         "time": "2012-05-23T11:26:20Z",
-        "@timestamp": "2012-05-23T16:39:22Z",
-        "@version": "2",
-        "@changeset": "11682240",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:26Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47344,15 +47486,14 @@
         "amenity": "hospital",
         "cmt": "Coquia Kidney Center",
         "desc": "Coquia Kidney Center",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Coquia Kidney Center",
         "sym": "Medical Facility",
         "time": "2012-05-23T11:25:56Z",
-        "@timestamp": "2012-05-23T16:38:32Z",
-        "@version": "2",
-        "@changeset": "11682240",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:24Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47370,15 +47511,14 @@
         "amenity": "hospital",
         "cmt": "Siapno Heart and Diabetes Clinic",
         "desc": "Siapno Heart and Diabetes Clinic",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Siapno Heart and Diabetes Clinic",
         "sym": "Waypoint",
         "time": "2012-05-23T11:30:36Z",
-        "@timestamp": "2012-05-23T16:39:12Z",
-        "@version": "2",
-        "@changeset": "11682240",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:25Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -47396,15 +47536,14 @@
         "amenity": "hospital",
         "cmt": "Decena General Hospital",
         "desc": "Decena General Hospital",
-        "extensions": "<extensions xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <gpxx:WaypointExtension xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">\n    <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>\n ",
         "name": "Decena General Hospital",
         "sym": "Medical Facility",
         "time": "2012-05-23T11:38:25Z",
-        "@timestamp": "2012-05-23T16:38:35Z",
-        "@version": "2",
-        "@changeset": "11682240",
-        "@user": "schadow1",
-        "@uid": "81841"
+        "@timestamp": "2014-02-24T10:29:25Z",
+        "@version": "3",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
@@ -48719,27 +48858,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1910811042",
-      "properties": {
-        "@id": "node/1910811042",
-        "amenity": "hospital",
-        "name": "Takas Baye-baye Hospital",
-        "@timestamp": "2012-09-11T23:29:13Z",
-        "@version": "1",
-        "@changeset": "13076680",
-        "@user": "joemariesangyahon",
-        "@uid": "869801"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.5087595,
-          11.411264
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1910931716",
       "properties": {
         "@id": "node/1910931716",
@@ -48789,17 +48907,17 @@
         "@id": "node/1912501654",
         "amenity": "hospital",
         "name": "Takas Baye-baye Hospital",
-        "@timestamp": "2012-09-13T07:52:59Z",
-        "@version": "1",
-        "@changeset": "13092427",
-        "@user": "joemariesangyahon",
-        "@uid": "869801"
+        "@timestamp": "2014-02-24T10:29:25Z",
+        "@version": "2",
+        "@changeset": "20747973",
+        "@user": "maning",
+        "@uid": "1417"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.5087595,
-          11.411264
+          122.5089052,
+          11.4112677
         ]
       }
     },
@@ -53272,27 +53390,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2581983744",
-      "properties": {
-        "@id": "node/2581983744",
-        "amenity": "hospital",
-        "name": "Calapacuan Heath Center",
-        "@timestamp": "2013-12-16T04:47:21Z",
-        "@version": "3",
-        "@changeset": "19476103",
-        "@user": "BUYI TAKEI",
-        "@uid": "1520865"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.2446093,
-          14.8593485
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2584547331",
       "properties": {
         "@id": "node/2584547331",
@@ -53893,39 +53990,19 @@
       "properties": {
         "@id": "node/2686792112",
         "amenity": "hospital",
+        "fixme": "veirfy position",
         "name": "Pag-Asa Hospital",
-        "@timestamp": "2014-02-23T14:48:35Z",
-        "@version": "1",
-        "@changeset": "20733215",
+        "@timestamp": "2014-02-25T05:49:23Z",
+        "@version": "2",
+        "@changeset": "20764054",
         "@user": "Rally",
         "@uid": "24338"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.1558483,
-          14.5206788
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2687422152",
-      "properties": {
-        "@id": "node/2687422152",
-        "amenity": "hospital",
-        "name": "Pag-Asa Hospital",
-        "@timestamp": "2014-02-23T20:28:44Z",
-        "@version": "1",
-        "@changeset": "20739726",
-        "@user": "Rally",
-        "@uid": "24338"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.1558483,
-          14.5206788
+          121.1562371,
+          14.520585
         ]
       }
     },
@@ -53946,6 +54023,48 @@
         "coordinates": [
           121.151516,
           14.5241215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694173914",
+      "properties": {
+        "@id": "node/2694173914",
+        "amenity": "hospital",
+        "name": "redcross",
+        "@timestamp": "2014-02-28T06:28:30Z",
+        "@version": "2",
+        "@changeset": "20821631",
+        "@user": "Skorlyme",
+        "@uid": "1958485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8421943,
+          10.1330109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694175509",
+      "properties": {
+        "@id": "node/2694175509",
+        "amenity": "hospital",
+        "name": "Maternity",
+        "@timestamp": "2014-02-28T06:31:36Z",
+        "@version": "1",
+        "@changeset": "20821655",
+        "@user": "Skorlyme",
+        "@uid": "1958485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8436181,
+          10.1335096
         ]
       }
     },
