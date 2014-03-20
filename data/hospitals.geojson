@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2014-03-07T10:54:01Z",
+  "timestamp": "2014-03-20T02:21:01Z",
   "features": [
     {
       "type": "Feature",
@@ -519,35 +519,39 @@
         "amenity": "hospital",
         "building": "yes",
         "type": "multipolygon",
-        "@timestamp": "2014-02-24T10:29:24Z",
-        "@version": "2",
-        "@changeset": "20747973",
-        "@user": "maning",
-        "@uid": "1417"
+        "@timestamp": "2014-03-14T06:20:35Z",
+        "@version": "4",
+        "@changeset": "21093836",
+        "@user": "vincentraybea",
+        "@uid": "1821288"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              120.2445383,
-              14.8593246
+              120.2445467,
+              14.8593341
             ],
             [
-              120.2446027,
-              14.8592778
+              120.2445921,
+              14.8592972
             ],
             [
-              120.2446607,
-              14.8593486
+              120.2446073,
+              14.8592849
             ],
             [
-              120.2445947,
-              14.8593958
+              120.2446615,
+              14.8593544
             ],
             [
-              120.2445383,
-              14.8593246
+              120.2445998,
+              14.8593985
+            ],
+            [
+              120.2445467,
+              14.8593341
             ]
           ]
         ]
@@ -2550,9 +2554,11 @@
         "addr:street": "Lopez Avenue",
         "amenity": "hospital",
         "name": "Los Baños Doctors Hospital and Medical Center",
-        "@timestamp": "2013-03-17T03:47:48Z",
-        "@version": "5",
-        "@changeset": "15391193",
+        "ref:doh": "5253",
+        "website": "http://www.lbdhmc.com/",
+        "@timestamp": "2014-03-08T09:19:11Z",
+        "@version": "6",
+        "@changeset": "20983633",
         "@user": "ianlopez1115",
         "@uid": "44938"
       },
@@ -3015,11 +3021,15 @@
       "id": "way/68169218",
       "properties": {
         "@id": "way/68169218",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Lopez Avenue",
         "amenity": "hospital",
         "name": "St. Jude Family Hospital",
-        "@timestamp": "2013-07-11T04:12:05Z",
-        "@version": "3",
-        "@changeset": "16907944",
+        "ref:doh": "4495",
+        "@timestamp": "2014-03-08T09:19:12Z",
+        "@version": "4",
+        "@changeset": "20983633",
         "@user": "ianlopez1115",
         "@uid": "44938"
       },
@@ -4843,10 +4853,11 @@
         "name": "UPLB University Health Service",
         "opening_hours": "24/7",
         "phone": "+63-49-5366238",
+        "ref:doh": "3452",
         "source": "Bing",
-        "@timestamp": "2013-03-01T14:43:37Z",
-        "@version": "6",
-        "@changeset": "15210461",
+        "@timestamp": "2014-03-08T09:19:12Z",
+        "@version": "7",
+        "@changeset": "20983633",
         "@user": "ianlopez1115",
         "@uid": "44938"
       },
@@ -6108,10 +6119,11 @@
         "amenity": "hospital",
         "emergency": "yes",
         "name": "Pagamutang Pangmasa ng Laguna",
+        "ref:doh": "5388",
         "source": "Bing",
-        "@timestamp": "2013-10-17T10:10:05Z",
-        "@version": "4",
-        "@changeset": "18400596",
+        "@timestamp": "2014-03-08T09:19:12Z",
+        "@version": "5",
+        "@changeset": "20983633",
         "@user": "ianlopez1115",
         "@uid": "44938"
       },
@@ -7269,12 +7281,13 @@
       "properties": {
         "@id": "way/108852390",
         "amenity": "hospital",
+        "emergency": "yes",
         "name": "St. Pauls Hospital",
-        "@timestamp": "2013-11-24T02:33:12Z",
-        "@version": "5",
-        "@changeset": "19084744",
-        "@user": "mrvt82",
-        "@uid": "501205"
+        "@timestamp": "2014-03-15T19:09:23Z",
+        "@version": "6",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -9058,12 +9071,13 @@
       "properties": {
         "@id": "way/114751312",
         "amenity": "hospital",
+        "emergency": "yes",
         "name": "Mother and Child Hospital",
-        "@timestamp": "2012-12-17T14:20:57Z",
-        "@version": "2",
-        "@changeset": "14306725",
-        "@user": "dyan888",
-        "@uid": "1121157"
+        "@timestamp": "2014-03-15T19:09:20Z",
+        "@version": "3",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -10010,56 +10024,56 @@
         "coordinates": [
           [
             [
-              120.9778415,
-              14.6601085
+              120.9778451,
+              14.6601124
             ],
             [
-              120.977483,
-              14.6599343
+              120.9774603,
+              14.6599516
             ],
             [
-              120.9775411,
-              14.6598223
+              120.9775408,
+              14.659804
             ],
             [
-              120.9776395,
-              14.6598701
+              120.9776165,
+              14.6598408
             ],
             [
-              120.9780168,
-              14.6591433
+              120.9779854,
+              14.6591302
             ],
             [
-              120.9779058,
-              14.6590894
+              120.9778971,
+              14.6590873
             ],
             [
-              120.9779875,
-              14.6589321
+              120.9779787,
+              14.65893
             ],
             [
-              120.9783867,
-              14.6591261
+              120.9783779,
+              14.659124
             ],
             [
-              120.9782978,
-              14.6592973
+              120.9782891,
+              14.6592952
             ],
             [
-              120.9781796,
-              14.6592399
+              120.9781709,
+              14.6592378
             ],
             [
-              120.9778199,
-              14.6599328
+              120.9778167,
+              14.65992
             ],
             [
-              120.97791,
-              14.6599766
+              120.9779192,
+              14.6599698
             ],
             [
-              120.9778415,
-              14.6601085
+              120.9778451,
+              14.6601124
             ]
           ]
         ]
@@ -11889,12 +11903,12 @@
         "amenity": "hospital",
         "emergency": "yes",
         "name": "Strahle Memorial Hospital",
-        "source": "GPS",
-        "@timestamp": "2011-09-27T10:59:47Z",
-        "@version": "1",
-        "@changeset": "9408691",
-        "@user": "brucefro",
-        "@uid": "527691"
+        "source": "Survey",
+        "@timestamp": "2014-03-15T20:23:26Z",
+        "@version": "2",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -15678,6 +15692,66 @@
     },
     {
       "type": "Feature",
+      "id": "way/154075455",
+      "properties": {
+        "@id": "way/154075455",
+        "amenity": "hospital",
+        "building": "yes",
+        "designation": "Secondary Level General Hospital",
+        "emergency": "yes",
+        "name": "St. Jude Thaddeus General Hospital",
+        "@timestamp": "2014-03-15T20:12:58Z",
+        "@version": "5",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.1296612,
+              8.1550526
+            ],
+            [
+              125.129697,
+              8.1549838
+            ],
+            [
+              125.129689,
+              8.1549599
+            ],
+            [
+              125.1297122,
+              8.1549172
+            ],
+            [
+              125.129731,
+              8.1549118
+            ],
+            [
+              125.1297658,
+              8.1548348
+            ],
+            [
+              125.1300214,
+              8.1549658
+            ],
+            [
+              125.1299046,
+              8.1551768
+            ],
+            [
+              125.1296612,
+              8.1550526
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/154146638",
       "properties": {
         "@id": "way/154146638",
@@ -19175,60 +19249,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/168955357",
-      "properties": {
-        "@id": "way/168955357",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "HealthServ",
-        "@timestamp": "2012-06-25T06:52:16Z",
-        "@version": "1",
-        "@changeset": "12007506",
-        "@user": "backpacking philippines",
-        "@uid": "239705"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              121.2410322,
-              14.1796586
-            ],
-            [
-              121.2410594,
-              14.1795808
-            ],
-            [
-              121.2411493,
-              14.1793232
-            ],
-            [
-              121.2412699,
-              14.1793628
-            ],
-            [
-              121.2411763,
-              14.1796307
-            ],
-            [
-              121.241238,
-              14.179651
-            ],
-            [
-              121.2412144,
-              14.1797184
-            ],
-            [
-              121.2410322,
-              14.1796586
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/168981802",
       "properties": {
         "@id": "way/168981802",
@@ -19595,12 +19615,13 @@
         "@id": "way/172780740",
         "amenity": "hospital",
         "building": "yes",
+        "emergency": "no",
         "name": "WVMC-Mental Hospital",
-        "@timestamp": "2013-11-23T22:01:28Z",
-        "@version": "2",
-        "@changeset": "19082193",
-        "@user": "Rps333",
-        "@uid": "596047"
+        "@timestamp": "2014-03-15T19:27:27Z",
+        "@version": "3",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -20029,11 +20050,13 @@
         "@id": "way/173711441",
         "amenity": "hospital",
         "name": "San Carlos City Hospital",
-        "@timestamp": "2012-07-31T02:20:06Z",
-        "@version": "1",
-        "@changeset": "12555984",
-        "@user": "meowlife",
-        "@uid": "12192"
+        "note": "SAN CARLOS CITY HOSPITAL",
+        "source": "San Carlos City (http://www.sancarloscity.gov.ph/)",
+        "@timestamp": "2014-03-15T20:51:27Z",
+        "@version": "2",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -20082,11 +20105,13 @@
         "@id": "way/173723685",
         "amenity": "hospital",
         "name": "San Carlos Doctor Hospital",
-        "@timestamp": "2012-07-31T06:09:43Z",
-        "@version": "1",
-        "@changeset": "12556950",
-        "@user": "meowlife",
-        "@uid": "12192"
+        "note": "SAN CARLOS DOCTOR HOSPITAL",
+        "source": "San Carlos City (http://www.sancarloscity.gov.ph/)",
+        "@timestamp": "2014-03-15T20:39:48Z",
+        "@version": "2",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -25058,76 +25083,19 @@
     },
     {
       "type": "Feature",
-      "id": "way/210235266",
-      "properties": {
-        "@id": "way/210235266",
-        "amenity": "hospital",
-        "building": "yes",
-        "emergency": "yes",
-        "name": "President Ramon Magsaysay Memorial Hospital",
-        "@timestamp": "2013-03-15T14:34:11Z",
-        "@version": "1",
-        "@changeset": "15373881",
-        "@user": "DY3JDR",
-        "@uid": "288064"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              119.991225,
-              15.3161284
-            ],
-            [
-              119.9916488,
-              15.3157404
-            ],
-            [
-              119.9918311,
-              15.3159215
-            ],
-            [
-              119.99174,
-              15.3159991
-            ],
-            [
-              119.991697,
-              15.3159836
-            ],
-            [
-              119.9914664,
-              15.3162009
-            ],
-            [
-              119.9914986,
-              15.3162319
-            ],
-            [
-              119.9914127,
-              15.3163251
-            ],
-            [
-              119.991225,
-              15.3161284
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/210239670",
       "properties": {
         "@id": "way/210239670",
         "amenity": "hospital",
+        "designation": "Zambales Provincial Hospital",
         "emergency": "yes",
         "name": "President Ramon Magsaysay Memorial Hospital",
-        "@timestamp": "2013-03-15T14:52:43Z",
-        "@version": "1",
-        "@changeset": "15373881",
-        "@user": "DY3JDR",
-        "@uid": "288064"
+        "source": "GPS coordinate",
+        "@timestamp": "2014-03-15T20:12:56Z",
+        "@version": "2",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -29241,49 +29209,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/240628962",
-      "properties": {
-        "@id": "way/240628962",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Rural Health Unit",
-        "source": "Engr. Ricalde",
-        "@timestamp": "2013-12-14T15:53:50Z",
-        "@version": "3",
-        "@changeset": "19450470",
-        "@user": "bryanpiczon",
-        "@uid": "688302"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              124.8102144,
-              12.0126325
-            ],
-            [
-              124.8101661,
-              12.0125669
-            ],
-            [
-              124.8103699,
-              12.0124882
-            ],
-            [
-              124.8104129,
-              12.0125538
-            ],
-            [
-              124.8102144,
-              12.0126325
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/240655375",
       "properties": {
         "@id": "way/240655375",
@@ -32661,12 +32586,11 @@
       "properties": {
         "@id": "way/252078985",
         "amenity": "hospital",
-        "name": "Calapacuan Heath Center",
-        "@timestamp": "2014-02-24T10:29:24Z",
-        "@version": "3",
-        "@changeset": "20747973",
-        "@user": "maning",
-        "@uid": "1417",
+        "@timestamp": "2014-03-14T06:02:11Z",
+        "@version": "5",
+        "@changeset": "21093703",
+        "@user": "vincentraybea",
+        "@uid": "1821288",
         "@relations": [
           {
             "role": "outer",
@@ -32684,24 +32608,28 @@
         "coordinates": [
           [
             [
-              120.2445383,
-              14.8593246
+              120.2445467,
+              14.8593341
             ],
             [
-              120.2446027,
-              14.8592778
+              120.2445921,
+              14.8592972
             ],
             [
-              120.2446607,
-              14.8593486
+              120.2446073,
+              14.8592849
             ],
             [
-              120.2445947,
-              14.8593958
+              120.2446615,
+              14.8593544
             ],
             [
-              120.2445383,
-              14.8593246
+              120.2445998,
+              14.8593985
+            ],
+            [
+              120.2445467,
+              14.8593341
             ]
           ]
         ]
@@ -32756,9 +32684,9 @@
         "amenity": "hospital",
         "building": "yes",
         "name": "Montefalcon Health Center",
-        "@timestamp": "2013-12-27T02:20:09Z",
-        "@version": "3",
-        "@changeset": "19654598",
+        "@timestamp": "2014-03-18T02:19:27Z",
+        "@version": "4",
+        "@changeset": "21166747",
         "@user": "vincentraybea",
         "@uid": "1821288"
       },
@@ -32767,8 +32695,8 @@
         "coordinates": [
           [
             [
-              120.2338029,
-              14.8798231
+              120.2338018,
+              14.8798274
             ],
             [
               120.2336996,
@@ -32779,58 +32707,16 @@
               14.879441
             ],
             [
-              120.2338383,
-              14.8794264
+              120.2338379,
+              14.8794272
             ],
             [
               120.2339332,
               14.8797951
             ],
             [
-              120.2338029,
-              14.8798231
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/253734432",
-      "properties": {
-        "@id": "way/253734432",
-        "amenity": "hospital",
-        "building": "yes",
-        "name": "Bioline",
-        "@timestamp": "2013-12-27T02:14:35Z",
-        "@version": "1",
-        "@changeset": "19654555",
-        "@user": "BUYI TAKEI",
-        "@uid": "1520865"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              120.2344031,
-              14.8796726
-            ],
-            [
-              120.2343722,
-              14.8795522
-            ],
-            [
-              120.2344504,
-              14.8795346
-            ],
-            [
-              120.2344804,
-              14.879655
-            ],
-            [
-              120.2344031,
-              14.8796726
+              120.2338018,
+              14.8798274
             ]
           ]
         ]
@@ -33504,12 +33390,12 @@
         "@id": "way/259910595",
         "amenity": "hospital",
         "emergency": "no",
-        "name": "dental clinic",
-        "@timestamp": "2014-02-04T13:14:06Z",
-        "@version": "1",
-        "@changeset": "20371787",
-        "@user": "joseph777",
-        "@uid": "1874979"
+        "name": "Dental clinic",
+        "@timestamp": "2014-03-15T20:58:44Z",
+        "@version": "2",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -33675,8 +33561,8 @@
               14.9241841
             ],
             [
-              120.2200335,
-              14.9244162
+              120.2200325,
+              14.9244211
             ],
             [
               120.2199209,
@@ -34321,11 +34207,12 @@
         "building": "yes",
         "emergency": "yes",
         "name": "St. James Hospital",
-        "@timestamp": "2014-02-19T10:49:45Z",
-        "@version": "1",
-        "@changeset": "20653572",
-        "@user": "jenjereren",
-        "@uid": "1940553"
+        "source": "Local knowledge",
+        "@timestamp": "2014-03-15T20:51:28Z",
+        "@version": "2",
+        "@changeset": "21122754",
+        "@user": "maggot27",
+        "@uid": "118021"
       },
       "geometry": {
         "type": "Polygon",
@@ -35488,51 +35375,412 @@
     },
     {
       "type": "Feature",
-      "id": "way/252078985",
+      "id": "way/264898870",
       "properties": {
-        "@id": "way/252078985",
+        "@id": "way/264898870",
         "amenity": "hospital",
-        "name": "Calapacuan Heath Center",
-        "@timestamp": "2014-02-24T10:29:24Z",
-        "@version": "3",
-        "@changeset": "20747973",
-        "@user": "maning",
-        "@uid": "1417",
-        "@relations": [
-          {
-            "role": "outer",
-            "rel": "3381256",
-            "reltags": {
-              "amenity": "hospital",
-              "building": "yes",
-              "type": "multipolygon"
-            }
-          }
-        ]
+        "building": "yes",
+        "@timestamp": "2014-03-07T13:04:34Z",
+        "@version": "1",
+        "@changeset": "20968930",
+        "@user": "joggernaught26",
+        "@uid": "1815956"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              120.2445383,
-              14.8593246
+              120.8117955,
+              14.8410319
             ],
             [
-              120.2446027,
-              14.8592778
+              120.8115796,
+              14.8409593
             ],
             [
-              120.2446607,
-              14.8593486
+              120.8116305,
+              14.8407985
             ],
             [
-              120.2445947,
-              14.8593958
+              120.8118478,
+              14.8408841
             ],
             [
-              120.2445383,
-              14.8593246
+              120.8117955,
+              14.8410319
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/265015225",
+      "properties": {
+        "@id": "way/265015225",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Los Baños - Bay Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Health Serv Los Baños Medical Center",
+        "ref:doh": "3495",
+        "website": "http://healthserv.com.ph/",
+        "@timestamp": "2014-03-08T09:19:11Z",
+        "@version": "1",
+        "@changeset": "20983633",
+        "@user": "ianlopez1115",
+        "@uid": "44938"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.2410086,
+              14.1796963
+            ],
+            [
+              121.2410565,
+              14.1794751
+            ],
+            [
+              121.2411323,
+              14.1791252
+            ],
+            [
+              121.2412379,
+              14.1786378
+            ],
+            [
+              121.2415489,
+              14.1785787
+            ],
+            [
+              121.2414768,
+              14.1789678
+            ],
+            [
+              121.2415684,
+              14.1790024
+            ],
+            [
+              121.2414298,
+              14.1794158
+            ],
+            [
+              121.2413272,
+              14.179766
+            ],
+            [
+              121.2410086,
+              14.1796963
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266297382",
+      "properties": {
+        "@id": "way/266297382",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "Batangas Provincial Hospital",
+        "type": "multipolygon",
+        "@timestamp": "2014-03-15T10:44:22Z",
+        "@version": "1",
+        "@changeset": "21114579",
+        "@user": "GOwin",
+        "@uid": "1041828"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.9070186,
+              13.8953095
+            ],
+            [
+              120.907014,
+              13.895193
+            ],
+            [
+              120.9069632,
+              13.8951896
+            ],
+            [
+              120.9069609,
+              13.8950698
+            ],
+            [
+              120.9070174,
+              13.8950698
+            ],
+            [
+              120.9070186,
+              13.8949589
+            ],
+            [
+              120.9073589,
+              13.8949634
+            ],
+            [
+              120.90751,
+              13.8950373
+            ],
+            [
+              120.9074858,
+              13.8950799
+            ],
+            [
+              120.9075873,
+              13.8950855
+            ],
+            [
+              120.9075942,
+              13.8953039
+            ],
+            [
+              120.9074085,
+              13.8953106
+            ],
+            [
+              120.9074073,
+              13.8954394
+            ],
+            [
+              120.9072724,
+              13.8954394
+            ],
+            [
+              120.9072735,
+              13.8953061
+            ],
+            [
+              120.9070186,
+              13.8953095
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266807333",
+      "properties": {
+        "@id": "way/266807333",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Socsargen County Hospital",
+        "@timestamp": "2014-03-17T11:37:50Z",
+        "@version": "1",
+        "@changeset": "21153261",
+        "@user": "fritzpec",
+        "@uid": "1980353"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.1893532,
+              6.1187692
+            ],
+            [
+              125.1893474,
+              6.1180654
+            ],
+            [
+              125.1906133,
+              6.1180552
+            ],
+            [
+              125.1906191,
+              6.118759
+            ],
+            [
+              125.1893532,
+              6.1187692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/267217425",
+      "properties": {
+        "@id": "way/267217425",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Rabara Clinic and Hospital",
+        "@timestamp": "2014-03-19T13:04:04Z",
+        "@version": "1",
+        "@changeset": "21191787",
+        "@user": "jenjereren",
+        "@uid": "1940553"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.3838582,
+              17.5732288
+            ],
+            [
+              120.3838302,
+              17.5731035
+            ],
+            [
+              120.3841378,
+              17.573041
+            ],
+            [
+              120.3841658,
+              17.5731663
+            ],
+            [
+              120.3838582,
+              17.5732288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/267218040",
+      "properties": {
+        "@id": "way/267218040",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "no",
+        "name": "Acas Clinic and Hospital",
+        "@timestamp": "2014-03-19T13:10:43Z",
+        "@version": "1",
+        "@changeset": "21191876",
+        "@user": "jenjereren",
+        "@uid": "1940553"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.3799465,
+              17.5571268
+            ],
+            [
+              120.3799007,
+              17.5569638
+            ],
+            [
+              120.380004,
+              17.5569374
+            ],
+            [
+              120.3800499,
+              17.5571004
+            ],
+            [
+              120.3799465,
+              17.5571268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/267218289",
+      "properties": {
+        "@id": "way/267218289",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Magsingal District Hospital",
+        "@timestamp": "2014-03-19T13:15:22Z",
+        "@version": "1",
+        "@changeset": "21191947",
+        "@user": "jenjereren",
+        "@uid": "1940553"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.4274258,
+              17.6897696
+            ],
+            [
+              120.4273689,
+              17.6896729
+            ],
+            [
+              120.4274659,
+              17.689621
+            ],
+            [
+              120.4274403,
+              17.6895774
+            ],
+            [
+              120.427263,
+              17.6896721
+            ],
+            [
+              120.4271975,
+              17.6895608
+            ],
+            [
+              120.4277114,
+              17.6892862
+            ],
+            [
+              120.4277689,
+              17.6893839
+            ],
+            [
+              120.427747,
+              17.6893955
+            ],
+            [
+              120.4277689,
+              17.6894328
+            ],
+            [
+              120.427822,
+              17.6894044
+            ],
+            [
+              120.4278842,
+              17.6895099
+            ],
+            [
+              120.4276287,
+              17.6896465
+            ],
+            [
+              120.4276632,
+              17.6897052
+            ],
+            [
+              120.4276253,
+              17.6897255
+            ],
+            [
+              120.4275973,
+              17.689678
+            ],
+            [
+              120.4274258,
+              17.6897696
             ]
           ]
         ]
@@ -36624,17 +36872,17 @@
         "amenity": "hospital",
         "emergency": "yes",
         "name": "Unciano General Hospital",
-        "@timestamp": "2013-10-14T04:09:38Z",
-        "@version": "7",
-        "@changeset": "18343159",
-        "@user": "Rally",
-        "@uid": "24338"
+        "@timestamp": "2014-03-10T23:51:06Z",
+        "@version": "8",
+        "@changeset": "21036815",
+        "@user": "Benigs",
+        "@uid": "1978077"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.0443649,
-          14.5739789
+          121.044166,
+          14.573968
         ]
       }
     },
@@ -37103,17 +37351,17 @@
         "addr:province": "Metro Manila",
         "amenity": "hospital",
         "name": "St. Lukes Hospital Manila",
-        "@timestamp": "2013-10-14T04:54:11Z",
-        "@version": "3",
-        "@changeset": "18343271",
-        "@user": "Rally",
-        "@uid": "24338"
+        "@timestamp": "2014-03-13T18:05:30Z",
+        "@version": "4",
+        "@changeset": "21086621",
+        "@user": "RuyVillalobos",
+        "@uid": "1983212"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.991249,
-          14.592041
+          120.9912516,
+          14.5920603
         ]
       }
     },
@@ -38581,52 +38829,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/410401209",
-      "properties": {
-        "@id": "node/410401209",
-        "amenity": "hospital",
-        "name": "San Carlos Doctor Hospital",
-        "note": "SAN CARLOS DOCTOR HOSPITAL",
-        "source": "San Carlos City (http://www.sancarloscity.gov.ph/)",
-        "@timestamp": "2012-02-26T11:09:16Z",
-        "@version": "3",
-        "@changeset": "10796652",
-        "@user": "meowlife",
-        "@uid": "12192"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.4212343,
-          10.491007
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/410401312",
-      "properties": {
-        "@id": "node/410401312",
-        "amenity": "hospital",
-        "name": "San Carlos City Hospital",
-        "note": "SAN CARLOS CITY HOSPITAL",
-        "source": "San Carlos City (http://www.sancarloscity.gov.ph/)",
-        "@timestamp": "2012-02-24T08:47:50Z",
-        "@version": "2",
-        "@changeset": "10775858",
-        "@user": "meowlife",
-        "@uid": "12192"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.4194329,
-          10.4803174
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/410860318",
       "properties": {
         "@id": "node/410860318",
@@ -39112,27 +39314,6 @@
         "coordinates": [
           120.6893152,
           15.0316104
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/469102345",
-      "properties": {
-        "@id": "node/469102345",
-        "amenity": "hospital",
-        "name": "Palawan Adventist Hospital",
-        "@timestamp": "2012-08-06T13:20:02Z",
-        "@version": "3",
-        "@changeset": "12633243",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.7483798,
-          9.7642075
         ]
       }
     },
@@ -40826,17 +41007,17 @@
         "addr:city": "General Santos",
         "amenity": "hospital",
         "name": "St. Elizabeth Hospital",
-        "@timestamp": "2011-12-19T07:51:49Z",
-        "@version": "2",
-        "@changeset": "10153431",
-        "@user": "ianlopez1115",
-        "@uid": "44938"
+        "@timestamp": "2014-03-18T09:40:14Z",
+        "@version": "3",
+        "@changeset": "21170259",
+        "@user": "fritzpec",
+        "@uid": "1980353"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.1799767,
-          6.1186636
+          125.1798865,
+          6.118603
         ]
       }
     },
@@ -41074,28 +41255,6 @@
         "coordinates": [
           120.6401619,
           15.0765458
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/849560809",
-      "properties": {
-        "@id": "node/849560809",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "St. Pauls Hospital",
-        "@timestamp": "2012-07-22T14:43:37Z",
-        "@version": "4",
-        "@changeset": "12433419",
-        "@user": "jonalta",
-        "@uid": "625262"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.5667318,
-          10.7018961
         ]
       }
     },
@@ -42503,27 +42662,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1213440577",
-      "properties": {
-        "@id": "node/1213440577",
-        "amenity": "hospital",
-        "name": "FAMILY Hospital",
-        "@timestamp": "2013-03-07T22:04:11Z",
-        "@version": "2",
-        "@changeset": "15287858",
-        "@user": "G-eMapper",
-        "@uid": "462835"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.7432083,
-          16.0279009
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1223267292",
       "properties": {
         "@id": "node/1223267292",
@@ -42761,27 +42899,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1232329918",
-      "properties": {
-        "@id": "node/1232329918",
-        "amenity": "hospital",
-        "name": "Dela Cerna Hospital",
-        "@timestamp": "2011-12-07T14:13:06Z",
-        "@version": "3",
-        "@changeset": "10058081",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.6197453,
-          7.1189297
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1232370088",
       "properties": {
         "@id": "node/1232370088",
@@ -43000,27 +43117,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1240838433",
-      "properties": {
-        "@id": "node/1240838433",
-        "amenity": "hospital",
-        "name": "Fabie General Hospital",
-        "@timestamp": "2011-04-11T11:49:30Z",
-        "@version": "1",
-        "@changeset": "7832204",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.6068466,
-          7.0681751
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1242044433",
       "properties": {
         "@id": "node/1242044433",
@@ -43045,41 +43141,22 @@
       "id": "node/1244450467",
       "properties": {
         "@id": "node/1244450467",
+        "addr:city": "Victoria",
+        "addr:postcode": "4011",
         "amenity": "hospital",
         "emergency": "yes",
         "name": "Victoria Health Center",
-        "@timestamp": "2011-04-14T15:51:32Z",
-        "@version": "1",
-        "@changeset": "7861891",
-        "@user": "Cesar Manila",
-        "@uid": "437377"
+        "@timestamp": "2014-03-16T04:35:16Z",
+        "@version": "2",
+        "@changeset": "21129228",
+        "@user": "ianlopez1115",
+        "@uid": "44938"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           121.3286542,
           14.2276728
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1246002827",
-      "properties": {
-        "@id": "node/1246002827",
-        "amenity": "hospital",
-        "name": "St. Therese Hospital",
-        "@timestamp": "2012-07-10T04:04:08Z",
-        "@version": "2",
-        "@changeset": "12168949",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.5619326,
-          10.6980425
         ]
       }
     },
@@ -43148,48 +43225,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1250879430",
-      "properties": {
-        "@id": "node/1250879430",
-        "amenity": "hospital",
-        "name": "Carmelite Hospital",
-        "@timestamp": "2011-12-02T17:55:35Z",
-        "@version": "4",
-        "@changeset": "10018700",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.6826978,
-          7.3062448
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1250879463",
-      "properties": {
-        "@id": "node/1250879463",
-        "amenity": "hospital",
-        "name": "Panabo Polymedic Hospital",
-        "@timestamp": "2011-04-19T08:17:57Z",
-        "@version": "1",
-        "@changeset": "7904181",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.6790112,
-          7.30337
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1251325547",
       "properties": {
         "@id": "node/1251325547",
@@ -43233,27 +43268,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1252428006",
-      "properties": {
-        "@id": "node/1252428006",
-        "amenity": "hospital",
-        "name": "Carmen District Hospital",
-        "@timestamp": "2012-08-09T11:45:43Z",
-        "@version": "5",
-        "@changeset": "12667527",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.7036573,
-          7.352599
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1252428245",
       "properties": {
         "@id": "node/1252428245",
@@ -43291,27 +43305,6 @@
         "coordinates": [
           126.3225315,
           8.2067274
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1255118908",
-      "properties": {
-        "@id": "node/1255118908",
-        "amenity": "hospital",
-        "name": "Andres Soriano Memorial Hospital",
-        "@timestamp": "2012-03-08T04:42:28Z",
-        "@version": "2",
-        "@changeset": "10906048",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.3410615,
-          8.1834976
         ]
       }
     },
@@ -43396,27 +43389,6 @@
         "coordinates": [
           125.7078328,
           7.5841458
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1261587355",
-      "properties": {
-        "@id": "node/1261587355",
-        "amenity": "hospital",
-        "name": "Bishop Joseph Reagan Memorial Hospital",
-        "@timestamp": "2012-05-10T04:08:58Z",
-        "@version": "2",
-        "@changeset": "11555080",
-        "@user": "sirville",
-        "@uid": "678457"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.8128925,
-          7.4471581
         ]
       }
     },
@@ -44317,27 +44289,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1320378778",
-      "properties": {
-        "@id": "node/1320378778",
-        "amenity": "hospital",
-        "name": "Cong. Hilarion Infirmary and Memorial Hospital",
-        "@timestamp": "2012-04-07T05:01:13Z",
-        "@version": "2",
-        "@changeset": "11209384",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.8435831,
-          8.2909632
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1321329802",
       "properties": {
         "@id": "node/1321329802",
@@ -44489,27 +44440,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1324984164",
-      "properties": {
-        "@id": "node/1324984164",
-        "amenity": "hospital",
-        "name": "St. Joseph Southern Bukidnon Hospital",
-        "@timestamp": "2011-10-31T05:27:02Z",
-        "@version": "3",
-        "@changeset": "9700251",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.0095917,
-          7.7733291
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1326534224",
       "properties": {
         "@id": "node/1326534224",
@@ -44595,27 +44525,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1327629370",
-      "properties": {
-        "@id": "node/1327629370",
-        "amenity": "hospital",
-        "name": "Bukidnon Provincial Hospital",
-        "@timestamp": "2012-06-12T00:43:31Z",
-        "@version": "2",
-        "@changeset": "11870276",
-        "@user": "RUFDEV_PICTD",
-        "@uid": "693459"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.8390443,
-          8.3847935
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1327642081",
       "properties": {
         "@id": "node/1327642081",
@@ -44654,27 +44563,6 @@
         "coordinates": [
           124.7376849,
           8.4889536
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1328389467",
-      "properties": {
-        "@id": "node/1328389467",
-        "amenity": "hospital",
-        "name": "Polymedic Medical Plaza",
-        "@timestamp": "2012-09-13T01:31:18Z",
-        "@version": "2",
-        "@changeset": "13090708",
-        "@user": "VForce3",
-        "@uid": "535545"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.6303118,
-          8.4982482
         ]
       }
     },
@@ -44871,32 +44759,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1345480490",
-      "properties": {
-        "@id": "node/1345480490",
-        "addr:housenumber": "1005",
-        "addr:postcode": "4009",
-        "addr:street": "J. Cailles",
-        "amenity": "hospital",
-        "designation": "dental clinic",
-        "emergency": "no",
-        "name": "NR Dental Clinic",
-        "@timestamp": "2013-08-04T13:15:28Z",
-        "@version": "5",
-        "@changeset": "17214872",
-        "@user": "bonil",
-        "@uid": "479855"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.4149812,
-          14.2807995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1345857028",
       "properties": {
         "@id": "node/1345857028",
@@ -44914,28 +44776,6 @@
         "coordinates": [
           122.629958,
           10.9270675
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1345857031",
-      "properties": {
-        "@id": "node/1345857031",
-        "amenity": "hospital",
-        "emergency": "no",
-        "name": "WVMC-Mental Hospital",
-        "@timestamp": "2012-07-05T10:07:21Z",
-        "@version": "2",
-        "@changeset": "12118378",
-        "@user": "Pmguanco",
-        "@uid": "406497"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.6304461,
-          10.9276774
         ]
       }
     },
@@ -45214,27 +45054,6 @@
         "coordinates": [
           124.1175864,
           11.3301905
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1411128927",
-      "properties": {
-        "@id": "node/1411128927",
-        "amenity": "hospital",
-        "name": "Davao Doctors Hospital",
-        "@timestamp": "2011-08-24T11:20:50Z",
-        "@version": "1",
-        "@changeset": "9111483",
-        "@user": "dv904k",
-        "@uid": "474638"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.6047016,
-          7.070096
         ]
       }
     },
@@ -45638,29 +45457,6 @@
         "coordinates": [
           120.9835904,
           14.6752751
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1446118744",
-      "properties": {
-        "@id": "node/1446118744",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Strahle Memorial Hospital",
-        "source": "Survey",
-        "@timestamp": "2011-09-26T10:29:43Z",
-        "@version": "1",
-        "@changeset": "9400410",
-        "@user": "brucefro",
-        "@uid": "527691"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.0062267,
-          7.9819119
         ]
       }
     },
@@ -46140,27 +45936,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1515239056",
-      "properties": {
-        "@id": "node/1515239056",
-        "amenity": "hospital",
-        "name": "Compostella Valley Provincial Hospital",
-        "@timestamp": "2011-11-24T12:23:08Z",
-        "@version": "1",
-        "@changeset": "9932468",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.9913615,
-          7.7257563
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1528035640",
       "properties": {
         "@id": "node/1528035640",
@@ -46203,27 +45978,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1541901487",
-      "properties": {
-        "@id": "node/1541901487",
-        "amenity": "hospital",
-        "name": "Cebu Velez General Hospital",
-        "@timestamp": "2011-12-12T05:41:58Z",
-        "@version": "1",
-        "@changeset": "10095986",
-        "@user": "dbgg1979",
-        "@uid": "568216"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.8963939,
-          10.3073832
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1544011149",
       "properties": {
         "@id": "node/1544011149",
@@ -46240,28 +45994,6 @@
         "coordinates": [
           121.0447541,
           14.3957545
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1553455542",
-      "properties": {
-        "@id": "node/1553455542",
-        "addr:city": "General Santos",
-        "amenity": "hospital",
-        "name": "Socsargen County Hospital",
-        "@timestamp": "2011-12-19T07:51:05Z",
-        "@version": "1",
-        "@changeset": "10153431",
-        "@user": "ianlopez1115",
-        "@uid": "44938"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.1897994,
-          6.1183265
         ]
       }
     },
@@ -46935,27 +46667,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1654049140",
-      "properties": {
-        "@id": "node/1654049140",
-        "amenity": "hospital",
-        "name": "St. Paul Hospital",
-        "@timestamp": "2014-02-20T06:42:38Z",
-        "@version": "2",
-        "@changeset": "20668977",
-        "@user": "spaghetticorner",
-        "@uid": "1942715"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.7075867,
-          17.6142116
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1661668067",
       "properties": {
         "@id": "node/1661668067",
@@ -46992,29 +46703,6 @@
         "coordinates": [
           125.1930547,
           6.1130834
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1666711400",
-      "properties": {
-        "@id": "node/1666711400",
-        "amenity": "hospital",
-        "designation": "Secondary Level General Hospital",
-        "emergency": "yes",
-        "name": "St. Jude Thaddeus General Hospital",
-        "@timestamp": "2012-09-18T00:40:40Z",
-        "@version": "2",
-        "@changeset": "13150569",
-        "@user": "VForce3",
-        "@uid": "535545"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.1297365,
-          8.1549675
         ]
       }
     },
@@ -47141,27 +46829,6 @@
         "coordinates": [
           120.817638,
           14.8521626
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1690097606",
-      "properties": {
-        "@id": "node/1690097606",
-        "amenity": "hospital",
-        "name": "Coron District Hospital",
-        "@timestamp": "2012-03-25T09:57:07Z",
-        "@version": "2",
-        "@changeset": "11093103",
-        "@user": "docsam",
-        "@uid": "191298"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.2000713,
-          12.0057665
         ]
       }
     },
@@ -47830,50 +47497,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1764466774",
-      "properties": {
-        "@id": "node/1764466774",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Eulogio Condeza Clinic",
-        "@timestamp": "2013-12-14T15:34:11Z",
-        "@version": "3",
-        "@changeset": "19450119",
-        "@user": "bryanpiczon",
-        "@uid": "688302"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.8144308,
-          12.010274
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1764467073",
-      "properties": {
-        "@id": "node/1764467073",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Gandara District Hospital",
-        "@timestamp": "2013-12-14T15:34:11Z",
-        "@version": "3",
-        "@changeset": "19450119",
-        "@user": "bryanpiczon",
-        "@uid": "688302"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.8146373,
-          12.0103081
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1769481730",
       "properties": {
         "@id": "node/1769481730",
@@ -47998,26 +47621,6 @@
         "coordinates": [
           122.5546318,
           10.6971278
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1775759592",
-      "properties": {
-        "@id": "node/1775759592",
-        "amenity": "hospital",
-        "@timestamp": "2012-06-04T04:38:07Z",
-        "@version": "1",
-        "@changeset": "11792821",
-        "@user": "more2307",
-        "@uid": "694986"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.0913672,
-          7.0098541
         ]
       }
     },
@@ -48921,27 +48524,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1887635592",
-      "properties": {
-        "@id": "node/1887635592",
-        "amenity": "hospital",
-        "name": "Cagayan de Oro City Hospital",
-        "@timestamp": "2012-10-14T23:10:21Z",
-        "@version": "2",
-        "@changeset": "13499848",
-        "@user": "VForce3",
-        "@uid": "535545"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.6281402,
-          8.4819321
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1888006753",
       "properties": {
         "@id": "node/1888006753",
@@ -49112,27 +48694,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1910931716",
-      "properties": {
-        "@id": "node/1910931716",
-        "amenity": "hospital",
-        "name": "Ballesteros District Hospital",
-        "@timestamp": "2012-09-12T01:32:03Z",
-        "@version": "1",
-        "@changeset": "13077253",
-        "@user": "G-eMapper",
-        "@uid": "462835"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.5010693,
-          18.4178067
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1910941358",
       "properties": {
         "@id": "node/1910941358",
@@ -49194,28 +48755,6 @@
         "coordinates": [
           121.0223624,
           14.5630213
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1924560464",
-      "properties": {
-        "@id": "node/1924560464",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Maria Reyna Hospital",
-        "@timestamp": "2012-09-21T02:16:57Z",
-        "@version": "1",
-        "@changeset": "13190384",
-        "@user": "VForce3",
-        "@uid": "535545"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.655016,
-          8.4753512
         ]
       }
     },
@@ -49749,28 +49288,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1989255592",
-      "properties": {
-        "@id": "node/1989255592",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "San Miguel District Hospital",
-        "@timestamp": "2012-12-06T13:03:42Z",
-        "@version": "2",
-        "@changeset": "14174765",
-        "@user": "spectrum650",
-        "@uid": "694188"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.9655083,
-          15.1365279
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1991619858",
       "properties": {
         "@id": "node/1991619858",
@@ -50045,28 +49562,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2010176608",
-      "properties": {
-        "@id": "node/2010176608",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Emmanuel Hospital",
-        "@timestamp": "2012-11-12T06:41:39Z",
-        "@version": "1",
-        "@changeset": "13842609",
-        "@user": "spectrum650",
-        "@uid": "694188"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.9807367,
-          15.1454188
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2010176609",
       "properties": {
         "@id": "node/2010176609",
@@ -50285,28 +49780,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2071510866",
-      "properties": {
-        "@id": "node/2071510866",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Mother and Child Hospital",
-        "@timestamp": "2012-12-17T14:20:54Z",
-        "@version": "1",
-        "@changeset": "14306725",
-        "@user": "dyan888",
-        "@uid": "1121157"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.2869403,
-          14.8301508
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2081855723",
       "properties": {
         "@id": "node/2081855723",
@@ -50436,29 +49909,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2092889202",
-      "properties": {
-        "@id": "node/2092889202",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "St. James Hospital",
-        "source": "Local knowledge",
-        "@timestamp": "2013-01-02T23:03:19Z",
-        "@version": "3",
-        "@changeset": "14506703",
-        "@user": "Mhac",
-        "@uid": "441147"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.3792307,
-          17.579207
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2095786442",
       "properties": {
         "@id": "node/2095786442",
@@ -50547,28 +49997,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2100777915",
-      "properties": {
-        "@id": "node/2100777915",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "James Gordon Memorial Hospital",
-        "@timestamp": "2013-01-08T03:20:33Z",
-        "@version": "1",
-        "@changeset": "14570154",
-        "@user": "dyan888",
-        "@uid": "1121157"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.2799432,
-          14.8269296
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2101340345",
       "properties": {
         "@id": "node/2101340345",
@@ -50627,27 +50055,6 @@
         "coordinates": [
           124.6352955,
           8.4772052
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2109021690",
-      "properties": {
-        "@id": "node/2109021690",
-        "amenity": "hospital",
-        "name": "Sacred Heart Medical Center",
-        "@timestamp": "2013-01-13T15:32:32Z",
-        "@version": "1",
-        "@changeset": "14635472",
-        "@user": "DY3JDR",
-        "@uid": "288064"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5984795,
-          15.125384
         ]
       }
     },
@@ -50970,30 +50377,6 @@
         "coordinates": [
           121.6477046,
           14.7445854
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2141335477",
-      "properties": {
-        "@id": "node/2141335477",
-        "amenity": "hospital",
-        "designation": "Zambales Provincial Hospital",
-        "emergency": "yes",
-        "name": "President Ramon Magsaysay Memorial Hospital",
-        "source": "GPS coordinate",
-        "@timestamp": "2013-02-04T13:32:56Z",
-        "@version": "2",
-        "@changeset": "14909388",
-        "@user": "DY3JDR",
-        "@uid": "288064"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.9911248,
-          15.3152007
         ]
       }
     },
@@ -51360,30 +50743,6 @@
         "coordinates": [
           124.7552388,
           10.370874
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2168360761",
-      "properties": {
-        "@id": "node/2168360761",
-        "amenity": "hospital",
-        "designation": "Community Hospital",
-        "emergency": "yes",
-        "name": "Matalom Community Hospital",
-        "source": "PPDO Leyte",
-        "@timestamp": "2013-02-23T06:06:42Z",
-        "@version": "1",
-        "@changeset": "15131426",
-        "@user": "jay-ar",
-        "@uid": "677694"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.7856414,
-          10.2817233
         ]
       }
     },
@@ -51967,30 +51326,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2313138693",
-      "properties": {
-        "@id": "node/2313138693",
-        "addr:province": "Rizal",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Rural Health Unit",
-        "source": "Lawrence B. Tagayun (Teresa Municipal GIS Mapper)",
-        "@timestamp": "2013-10-12T12:53:09Z",
-        "@version": "3",
-        "@changeset": "18314197",
-        "@user": "Rally",
-        "@uid": "24338"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.2077054,
-          14.5583511
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2314102287",
       "properties": {
         "@id": "node/2314102287",
@@ -52071,28 +51406,6 @@
         "coordinates": [
           125.4859711,
           9.7818936
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2322739904",
-      "properties": {
-        "@id": "node/2322739904",
-        "addr:province": "Rizal",
-        "amenity": "hospital",
-        "name": "Tanay General Hospital",
-        "@timestamp": "2013-10-12T12:53:18Z",
-        "@version": "2",
-        "@changeset": "18314197",
-        "@user": "Rally",
-        "@uid": "24338"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.2898885,
-          14.4955349
         ]
       }
     },
@@ -53006,27 +52319,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2476694407",
-      "properties": {
-        "@id": "node/2476694407",
-        "amenity": "hospital",
-        "name": "Veterans Regional Hospital",
-        "@timestamp": "2013-09-29T16:08:28Z",
-        "@version": "1",
-        "@changeset": "18091787",
-        "@user": "DY3JDR",
-        "@uid": "288064"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.1342875,
-          16.4832564
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2478421238",
       "properties": {
         "@id": "node/2478421238",
@@ -53214,50 +52506,6 @@
         "coordinates": [
           121.8887106,
           11.8439832
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2530949926",
-      "properties": {
-        "@id": "node/2530949926",
-        "amenity": "hospital",
-        "name": "Babatngon Clinic",
-        "@timestamp": "2013-11-13T16:37:09Z",
-        "@version": "1",
-        "@changeset": "18877504",
-        "@user": "peter barlow",
-        "@uid": "1803501"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.8448113,
-          11.4237832
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2537732689",
-      "properties": {
-        "@id": "node/2537732689",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Field Hospital",
-        "source": "Twitter",
-        "@timestamp": "2013-12-24T12:24:37Z",
-        "@version": "2",
-        "@changeset": "19616558",
-        "@user": "Jorieke V",
-        "@uid": "378610"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.990962,
-          11.1597587
         ]
       }
     },
@@ -53540,27 +52788,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2565796477",
-      "properties": {
-        "@id": "node/2565796477",
-        "amenity": "hospital",
-        "name": "Calalang General Hospital",
-        "@timestamp": "2013-12-05T02:37:58Z",
-        "@version": "1",
-        "@changeset": "19282018",
-        "@user": "peterwilt",
-        "@uid": "375654"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.982548,
-          14.6727712
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2565829028",
       "properties": {
         "@id": "node/2565829028",
@@ -53665,27 +52892,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2588737532",
-      "properties": {
-        "@id": "node/2588737532",
-        "amenity": "hospital",
-        "name": "Montefalcon Health Center",
-        "@timestamp": "2013-12-23T07:29:02Z",
-        "@version": "2",
-        "@changeset": "19594983",
-        "@user": "BUYI TAKEI",
-        "@uid": "1520865"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.2338104,
-          14.8797929
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2589973418",
       "properties": {
         "@id": "node/2589973418",
@@ -53771,27 +52977,6 @@
         "coordinates": [
           121.084352,
           14.6866662
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2596209984",
-      "properties": {
-        "@id": "node/2596209984",
-        "amenity": "hospital",
-        "name": "Bioline",
-        "@timestamp": "2013-12-27T02:14:35Z",
-        "@version": "1",
-        "@changeset": "19654555",
-        "@user": "BUYI TAKEI",
-        "@uid": "1520865"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.23445,
-          14.8796056
         ]
       }
     },
@@ -54065,28 +53250,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2653712386",
-      "properties": {
-        "@id": "node/2653712386",
-        "amenity": "hospital",
-        "emergency": "no",
-        "name": "Dental clinic",
-        "@timestamp": "2014-02-04T13:14:06Z",
-        "@version": "1",
-        "@changeset": "20371787",
-        "@user": "joseph777",
-        "@uid": "1874979"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.0726029,
-          14.6340377
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2668251597",
       "properties": {
         "@id": "node/2668251597",
@@ -54303,30 +53466,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2696704724",
-      "properties": {
-        "@id": "node/2696704724",
-        "addr:city": "Panabo City",
-        "addr:postcode": "8105",
-        "addr:street": "Roxas",
-        "amenity": "hospital",
-        "name": "Out Patient Emergency Clinic and Safety Birthing Facility",
-        "@timestamp": "2014-03-01T18:59:50Z",
-        "@version": "1",
-        "@changeset": "20851590",
-        "@user": "bughaw",
-        "@uid": "1961030"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.6820819,
-          7.2984683
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2697113156",
       "properties": {
         "@id": "node/2697113156",
@@ -54412,6 +53551,111 @@
         "coordinates": [
           124.845641,
           10.1344466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2712063269",
+      "properties": {
+        "@id": "node/2712063269",
+        "amenity": "hospital",
+        "name": "Velez Hospital",
+        "@timestamp": "2014-03-11T04:26:02Z",
+        "@version": "1",
+        "@changeset": "21038518",
+        "@user": "Ronie_12",
+        "@uid": "1244086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.8965669,
+          10.3076394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2715004341",
+      "properties": {
+        "@id": "node/2715004341",
+        "amenity": "hospital",
+        "name": "Matalom Community Hospital",
+        "@timestamp": "2014-03-13T02:28:17Z",
+        "@version": "1",
+        "@changeset": "21076043",
+        "@user": "erisheye",
+        "@uid": "1958519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.7856834,
+          10.2780271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2716493774",
+      "properties": {
+        "@id": "node/2716493774",
+        "amenity": "hospital",
+        "name": "Calapacuan Health Center",
+        "@timestamp": "2014-03-14T06:02:11Z",
+        "@version": "1",
+        "@changeset": "21093703",
+        "@user": "vincentraybea",
+        "@uid": "1821288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.244626,
+          14.8593609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2716564352",
+      "properties": {
+        "@id": "node/2716564352",
+        "amenity": "hospital",
+        "name": "Sogod District Hospital",
+        "@timestamp": "2014-03-14T06:44:20Z",
+        "@version": "1",
+        "@changeset": "21094011",
+        "@user": "choi hee young",
+        "@uid": "1958467"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9778978,
+          10.3836591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2721548876",
+      "properties": {
+        "@id": "node/2721548876",
+        "amenity": "hospital",
+        "name": "General Santos City Hospital",
+        "@timestamp": "2014-03-16T16:39:00Z",
+        "@version": "1",
+        "@changeset": "21139484",
+        "@user": "fritzpec",
+        "@uid": "1980353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1851458,
+          6.1250441
         ]
       }
     },
