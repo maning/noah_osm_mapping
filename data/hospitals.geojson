@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2014-03-31T01:55:02Z",
+  "timestamp": "2014-04-04T07:56:02Z",
   "features": [
     {
       "type": "Feature",
@@ -36912,6 +36912,46 @@
     },
     {
       "type": "Feature",
+      "id": "way/271047795",
+      "properties": {
+        "@id": "way/271047795",
+        "amenity": "hospital",
+        "@timestamp": "2014-04-02T03:28:41Z",
+        "@version": "1",
+        "@changeset": "21449963",
+        "@user": "Rhuin",
+        "@uid": "2012996"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.9961398,
+              14.2847956
+            ],
+            [
+              120.9964804,
+              14.2846539
+            ],
+            [
+              120.9965367,
+              14.2847813
+            ],
+            [
+              120.99618,
+              14.2849334
+            ],
+            [
+              120.9961398,
+              14.2847956
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/25389198",
       "properties": {
         "@id": "node/25389198",
@@ -38217,6 +38257,7 @@
       "properties": {
         "@id": "node/255063538",
         "amenity": "hospital",
+        "emergency": "yes",
         "garmin:description": "hospital",
         "is_in:city": "Meycauayan",
         "is_in:region": "Bulacan",
@@ -38224,11 +38265,11 @@
         "name": "Nazarenus Hosp",
         "source": "jklinc",
         "source:url": "http://www.freewebs.com/phroadguide/",
-        "@timestamp": "2011-02-14T19:04:54Z",
-        "@version": "3",
-        "@changeset": "7288197",
-        "@user": "axk",
-        "@uid": "69076"
+        "@timestamp": "2014-03-31T20:45:20Z",
+        "@version": "4",
+        "@changeset": "21427235",
+        "@user": "Decoder777",
+        "@uid": "104608"
       },
       "geometry": {
         "type": "Point",
@@ -38261,33 +38302,6 @@
         "coordinates": [
           120.997451,
           14.532831
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/255063841",
-      "properties": {
-        "@id": "node/255063841",
-        "amenity": "hospital",
-        "garmin:description": "hospital",
-        "is_in:city": "Kalookan",
-        "is_in:region": "Ncr",
-        "is_in:zip": "1400",
-        "name": "Pres Diosdado Macapagal Gen Hosp",
-        "source": "Benta Serbisyo",
-        "source:url": "http://www.bentaserbisyo.com/",
-        "@timestamp": "2011-02-14T18:34:09Z",
-        "@version": "3",
-        "@changeset": "7288197",
-        "@user": "axk",
-        "@uid": "69076"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.9732659,
-          14.6480601
         ]
       }
     },
@@ -41475,17 +41489,17 @@
         "@id": "node/670435232",
         "amenity": "hospital",
         "name": "San Jose Hospital and Trauma Center",
-        "@timestamp": "2013-10-15T17:23:38Z",
-        "@version": "4",
-        "@changeset": "18372734",
-        "@user": "pnorman_mechanical",
-        "@uid": "392827"
+        "@timestamp": "2014-04-02T03:28:41Z",
+        "@version": "5",
+        "@changeset": "21449963",
+        "@user": "Rhuin",
+        "@uid": "2012996"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.9963632,
-          14.2848708
+          120.9963342,
+          14.2847865
         ]
       }
     },
@@ -50800,17 +50814,17 @@
         "amenity": "hospital",
         "emergency": "yes",
         "name": "Doctor's Hospital",
-        "@timestamp": "2012-12-02T06:33:00Z",
-        "@version": "1",
-        "@changeset": "14120514",
-        "@user": "Nichol Ross Wee",
-        "@uid": "1065385"
+        "@timestamp": "2014-03-31T06:01:46Z",
+        "@version": "2",
+        "@changeset": "21413140",
+        "@user": "Bart-M",
+        "@uid": "2009732"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.0798177,
-          6.9152037
+          122.0795638,
+          6.9169266
         ]
       }
     },
@@ -52146,17 +52160,17 @@
         "emergency": "yes",
         "name": "Valenzuela Emergency Hospital",
         "source": "Benta Serbisyo",
-        "@timestamp": "2013-03-04T12:34:39Z",
-        "@version": "1",
-        "@changeset": "15245802",
+        "@timestamp": "2014-04-01T19:24:57Z",
+        "@version": "2",
+        "@changeset": "21445544",
         "@user": "Decoder777",
         "@uid": "104608"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.9579167,
-          14.7093526
+          120.9576968,
+          14.7092014
         ]
       }
     },
@@ -54872,6 +54886,52 @@
         "coordinates": [
           121.9583517,
           12.0624701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2759039621",
+      "properties": {
+        "@id": "node/2759039621",
+        "amenity": "hospital",
+        "name": "Health Center",
+        "source": "Benta Serbisyo",
+        "@timestamp": "2014-04-01T18:43:39Z",
+        "@version": "1",
+        "@changeset": "21444315",
+        "@user": "Decoder777",
+        "@uid": "104608"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9462976,
+          14.7081893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2766418006",
+      "properties": {
+        "@id": "node/2766418006",
+        "amenity": "hospital",
+        "designation": "Maternity Clinic",
+        "emergency": "no",
+        "name": "Manipis Lying Inn",
+        "source": "d1754",
+        "@timestamp": "2014-04-04T07:16:32Z",
+        "@version": "1",
+        "@changeset": "21489427",
+        "@user": "d1754",
+        "@uid": "371192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9600222,
+          14.1724189
         ]
       }
     },
